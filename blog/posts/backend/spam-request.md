@@ -5,7 +5,7 @@ subtitle: Xây dựng server SpringBoot hạn chế Spam Request từ người d
 author: Trần Hữu Đang
 date: 2023-12-22
 useHeaderImage: false
-headerImage: img/in-post/back-end/session-cookie.png
+headerImage: img/in-post/back-end/spam-request-filter.png
 headerMask: rgba(70, 112, 80, 0.5)
 permalinkPattern: /post/backend/:slug/
 tags:

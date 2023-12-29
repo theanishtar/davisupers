@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-58a4d030\",\"path\":\"/spring-boot/session1.html\",\"title\":\"Bài 1. Rest Controllers\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"readingTime\":{\"minutes\":1,\"words\":11},\"filePathRelative\":\"spring-boot/session1.md\"}")

@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-1405c73a\",\"path\":\"/tags/authentication/\",\"title\":\"Authentication | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Authentication | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"Authentication\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")

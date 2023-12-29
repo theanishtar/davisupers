@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-d6eea6e0\",\"path\":\"/tags/java/\",\"title\":\"Java | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Java | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"Java\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")

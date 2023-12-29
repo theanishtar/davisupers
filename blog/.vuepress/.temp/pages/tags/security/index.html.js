@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-c1ceac9c\",\"path\":\"/tags/security/\",\"title\":\"Security | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Security | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"Security\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")

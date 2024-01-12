@@ -1,231 +1,155 @@
-<!-- ---
-layout: Post
-title: Giới thiệu về lập trình hướng đối tượng trong Java
-subtitle: Lập trình hướng đối tượng với Java
-author: Theanishtar
-date: 2023-06-09
-useHeaderImage: false
-headerImage: /img/in-post/2020-10-07/header.jpg
-headerMask: rgba(30, 69, 110, 0.61)
-permalinkPattern: /ebook/java/java-oop/:slug/
-tags:
-  - Java OOP
----
-
-Hướng đối tượng là phương pháp lập trình phổ biến nhất hiện nay!!! Cùng mình tìm hiểu về OOP trog bài viết này nhé  -->
-<!-- more -->
 
 # Bài 3. Tính kế thừa
 
-Lập trình hướng đối tượng gồm 4 tính chất chính: [Tính đóng gói](), [Tính đa hình](), [Tính kế thừa](), [Tính trừu tượng]().
+**Kế thừa *(Inheritance)*** là một trong 4 tính chất của lập trình hướng đối tượng. [Tính đóng gói](), [Tính đa hình](/java-oop/session2.html), [Tính kế thừa](/java-oop/session3.html), [Tính trừu tượng]().
 
-## 1. Kế thừa (`Inheritance`)
 
-Trong `Java` các `attributes` và `methods` có thể kế thừa từ `class` khác.
+**Inheritance** (tính kế thừa) được hiểu như sau:
 
-Ở đây,chúng tôi gọi đó là `Inheritance`,  gồm 2 loại : 
+:::info Định nghĩa
+Là thừa hưởng các đặc trưng và hành động của một lớp khác
+:::
 
-- `subclass` (con) : *là `class` được kế thừa từ `class` khác*
-- `superclass` (cha) : là `class` thừa kế
+> Làm sao nhận biết được trong code có sử dụng tính kế thừa hay không? 
 
-Ta sử dụng từ khoá `extends` để kế thừa từ một `class` : 
+Ta sẽ tìm hiểu qua biểu hiện của Tính kế thừa nhé!
 
-```java
-class Animals(){
-    protected String name = "mèo"; //thuộc tính
-    public run(){ //phương thước
-        System.out.println("Con vật đang chạy");
-    }
-}
-class Dog extends Aminals{
-    private String spec = "chó"; //thuộc tính
-    public static void main(String[] args){
-        Dog myDog = new Dog(); //tạo một object từ class Dog kế thừa từ Animals
-        myDog.run(); //gọi phương thức run() từ class Dog kế thừa từ Animals
-        System.out.println(myDog.name + " " + myDog.spec);
-    }
-}
-/* Con vật đang chạy 
-   mèo chó  */
-```
+:::tip Biểu hiện
+Gồm ba thành phần: lớp con (subclass), lớp cha (superclass), interface 
+:::
 
-> ⚠️ Hãy để ý ở lớp `Animals` tôi đã sử dụng `protected` để khai báo ==> Vì nếu 
-> 
-> - Đặt `private` thì lớp `Dog` sẽ không truy cập được
-> - Đặt `public` thì không bảo đảm tính **an toàn** và **đóng gói**
+## Các thành phần
 
-#### Ôi, tôi không muốn kế thừa của ai hết, tôi cần làm sao ?
+### Lớp cơ sở (Lớp cha)
 
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/01-13-25-05-Questions%20And%20Answers.png"> Trả lời
-</b></summary>
+Các lớp được tạo ra trước và cho phép kế thừa được gọi là lớp cha (superclass)
 
-<br>
+Lớp cha sẽ cho những lớp kế thừa nó sử dụng lại các code đã xây dựng.
 
-Sử dụng từ khoá `final` quốc dân thôi !!!
+Ví dụ ta có lớp `Animal.java` và phương thức `sleep()` như sau:
 
 ```java
-final class Animals{
-    //...
-}
-class Dog extends Animals{ // Dòng này sẽ lỗi ngay lập tức
-    //...
-}
-```
-
-> 💡 Nếu bạn cố gắng kế thừa lớp `Animals` thì sẽ lỗi ngay !!!
-
-</details>
-
----
-
-## 2. Đa hình (`Polymorphism`)
-
-`Polymorphism` có nghĩa là "many forms", nhiều `class` liên quan với nhau **kế thừa** nhau
-
-> 💡 Như bạn đã biết thì `Interitance` sẽ cho phép `attributes` và `methods` kế thừa từ `class` khác. Thì **đa hình** có nghĩa là vẫn `methods` đó nhưng cách thức thực hiện khác nhau.
-> 
-> <details>
-> <summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/02-11-21-10-Assignment.png"> Ví dụ đơn giản</b></summary>
-> 
-> <br>
-> 
-> 🔥 Hiểu đơn giản, cũng là hàm `dientich()` để tính **diện tích**, nhưng nếu bạn nhập thông số của **hình vuông** nó sẽ ra **diện tích hình vuông**, nhập thông số **hình chữ nhật** thì sẽ ra **diện tích hình chữ nhật**
-> 
-> </details>
-
-```java
-class HinhHoc{
-    public void dienTich(){
-        System.out.println("Tính diện tích hình học");
-    }
-}
-class HinhVuong extends HinhHoc{ // class hình vuông kế thừa từ class hình học
-    public int dienTich(int canh){ 
-        System.out.println("Diện tích hình vuông là " + (canh*canh));
-    }
-}
-class HinhChuNhat extends HinhHoc{ // class hình chữ nhật kế thừa từ class hình học
-    public void dienTich(int dai,int rong){
-        System.out.println("Diện tích hình chữ nhật là " + (dai*rong));
+public class Animal {
+    public void sleep(){
+        System.out.println("Sleeping... !!!");
     }
 }
 ```
 
-> 🔥 Như bạn đã thấy thì hàm `dienTich()` được lớp `HinhVuong` và lớp `HinhChuNhat` kế thừa từ lớp `HinhHoc` nhưng dĩ nhiên chức năng của nó khác nhau như sau : 
+Với trường hợp ta cần tạo các lớp khác và không muốn khởi tạo phương thức `sleep()` cho từng lớp, ta có thể sử dụng từ khóa `extends` để kế thừa lại lớp `Animal.java`
+
+### Lớp kế thừa (lớp con)
+
+Lớp con là lớp kế thừa lại [lớp cơ sở]() bằng từ khóa `extends`, còn được gọi là [supclass]()
+
+Giờ ta xây dựng thêm lớp `Cat.java` và phương thức `sleep()`
 
 ```java
-class Main{
-    public static void main(String[] args){
-        HinhHoc hinhHoc = new HinhHoc();
-        HinhVuong hinhVuong = new HinhVuong();
-        HinhChuNhat hinhChuNhat = new HinhChuNhat();
-        hinhHoc.dienTich();
-        hinhVuong.dienTich(5);
-        hinhChuNhat.dienTich(3,5);
+public class Cat extends Animal{
+    
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        cat.sleep();
     }
 }
-/* Tính diện tích hình học
-   Diện tích hình vuông là 25
-   Diện tích hình chữ nhật là 15
-*/
+/**
+ * Sleeping... !!!
+ */
 ```
 
-> 🚀 Sử dụng tốt **đa hình** và **kế thừa** sẽ khiến code của bạn có tính tái sử dụng cao (*chỉ cần viết 1 lần dùng cho các vấn đề tương tự*)
+Như ta thấy, ta có thể kế thừa lại phương thức `sleep()` từ lớp `Animal.java` mà không cần phải định nghĩa lại !!!
 
----
+### Lớp đa kế thừa
 
-## 3. Các Class lồng nhau (`Inner Classes`)
+Các ngôn ngữ lập trình như Java, C Sharp chỉ hỗ trợ [đơn kế thừa]().
 
-Trong `Java`, ta có thể viết các `class` này lồng `class` khác để làm cho code dễ bảo trì và dễ hiểu hơn.
 
-#### Vậy làm thế nào để tạo một `class` lồng với `class` khác ?
+:::tip Đơn kế thừa
+Đơn kế thừa nghĩa là một lớp con (supclass) chỉ được kế thừa từ một lớp cha (superclass)
+:::
 
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/01-13-25-05-Questions%20And%20Answers.png"> Trả lời</b></summary>
+Hiểu đơn giản thì mỗi đứa con chỉ có duy nhất một cha =)))
 
-<br>
+Với ví dụ trên, nếu ta cố tình cho kế thừa từ 2 lớp trở lên thì code sẽ lỗi.
 
-Hãy tạo một `Object` của `class` ngoài, sau đó tạo một `Object` của `class` trong, như sau : 
 
 ```java
-class lopNgoai{
-    int x = 10;
-    class lopTrong{
-        int y = 5;
+public class Cat extends Animal, Dog{ // Lỗi hiển thị ở đây
+    
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        cat.sleep();
     }
 }
-public class Main{
-    public static void main(String[] args){
-        lopNgoai myOuter = new lopNgoai();
-        lopNgoai.lopTrong myInner = myOuter.new lopTrong();
-        System.out.println(myInner.y + myOuter.x);
-    }
-}
-// output : 15 (5 + 10)
 ```
 
-> 💡 Như bạn đã thấy thì thì lớp `lopTrong` nằm trong lớp `lopNgoai`, vì thế chúng ta cũng có cách khai báo như trên.
+Nhưng trên thực tế vẫn có nhiều trường hợp cần đến [đa kế thừa]().
 
-</details>
+Các bạn còn nhớ bài viết [các frameworks front-end]() chứ, mình đã nói như sau:
 
-<br>
+> VueJS được ra đời sau được xem là sự kế hợp giữa Angular và ReactJS
 
-#### Các `class` trong có thể truy cập lên `class` ngoài được không ?
+Như vậy VueJS là một dạng đa kế thừa từ Angular và ReactJS đúng chứ ???
 
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/01-13-25-05-Questions%20And%20Answers.png"> Trả lời</b></summary>
-
-<br>
-
-Dĩ nhiên là được, vì đó là lợi thế của việc sử dụng `Inner Classes`, như sau : 
+Để triển khai [đa kế thừa]() trong Java, ta sẽ sử dụng `interface` kết hợp với từ khóa `implements` để triển khai các phương thức.
 
 ```java
-class lopNgoai{
-    int x = 10;
-    class lopTrong{
-        public int myInnerMethod(){
-            return x;
-        }
+public class Animal {
+    public void sleep(){
+        System.out.println("Sleeping... !!!");
     }
 }
-
-public class Main{
-    public static void main(String[] args){
-        lopNgoai myOuter = new lopNgoai();
-        lopNgoai.lopTrong myInner = myOuter.new lopTrong();
-        System.out.println(myInner.myInnerMethod());
-    }
-}
-// output : 10
 ```
 
-</details>
-
-<br>
-
-> 💡 Bạn cũng có thể khai báo `class` bên trong là `static` để có thể sử dụng mà không cần tạo `Object`
-
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/02-11-21-10-Assignment.png"> Cụ thể như sau:</b></summary>
+Ta muốn tạo một đối tượng mới vừa thừa hưởng từ `Animal.java` vừa thừa hưởng một tính chất khác thì làm thế nào??
 
 ```java
-class lopNgoai{
-    int x = 10;
-    static class lopTrong{
-        int y = 5;
-    }
+interface Human{
+    public void coding();
 }
-
-public class Main{
-    public static void main(String[] args){
-        lopNgoai.lopTrong myInner = new lopNgoai.lopTrong();
-        System.out.println(myInner.y);
-    }
-}
-// output : 5
 ```
 
-</details>
+Xây dựng giao diện (interface) `Human.java` với phương thức `coding()`
 
-> ⚠️  Sử dụng `static` sẽ làm cho `class` trong không thể truy cập `class` ngoài ==> `myInner.x` là sai và lỗi.
+Ta xây dựng thêm lớp `FrogDev.java` thừa hưởng lại `sleep()` từ `Animal.java` và `coding()` từ `Human.java`
+
+```java
+public class FrogDev extends Animal implements Human{
+
+    @Override
+    public void coding() {
+        System.out.println("Coding with Java...");
+    }
+    
+    // thừa hưởng lại sleep() từ Animal.java 
+}
+```
+
+Vậy là ta đã sử dụng được đa kế thừa trong Java bằng cách triển khai (implements) các phương thức của một giao diện (interface).
+
+### Một số lưu ý
+
+::: details Khi sử dụng đa kế thừa, ta phải khai báo lớp cha trước rồi mới triển khai các giao diện
+|True ✅|False ❌|
+|---|----|
+|  `class FrogDev extends Animal implements Human` | `class FrogDev implements Human extends Animal` |
+:::
+
+
+
+## Tổng kết
+
+1. Thế nào là kế thừa?
+- Kế thừa là cho phép một lớp thừa hưởng đặc trưng và hành động của một lớp khác.
+
+2. Lợi ích của kế thừa?
+- Kế thừa giúp ta tái sử dụng lại các code đã triển khai nhưng vẫn đảm bảo duy trì một hệ thống phân cấp. 
+
+3. Có những loại kế thừa nào? 
+- Có hai loại kế thừa là:
+  - Đơn kế thừa: nhận biết thông qua từ khóa `extends`
+  - Đa kế thừa: nhận biết thông qua từ khóa `implements`
+
+4. Các thành phần?
+- Lớp cha có trước đơn giản và tổng quát
+- Lớp con có sau (thừa hưởng từ lớp cha) cụ thể và đa dạng hơn lớp cha

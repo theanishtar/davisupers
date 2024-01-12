@@ -4,7 +4,7 @@
 
 Được mình tạo ra vào năm 2 trong khoản thời gian học IT tại trường. Dự án vẫn sẽ tiếp tục được mình phát triển thêm trong suốt quá trình học tập và làm việc
 
-Các bạn có thể truy cập webite thông qua [frogcyber.web.app](https://frogcyber.web.app/) hoặc phát triển thêm nếu bạn muốn. 
+Các bạn có thể truy cập webite thông qua [đây]() hoặc phát triển thêm nếu bạn muốn. 
 
 Clone dự án và cài đặt các thư viện cần thiết:
 
@@ -24,6 +24,10 @@ Build dự án:
 pnpm build
 ```
 
+```bash
+firebase user <...>
+firebase deploy
+```
 
 &nbsp;
 

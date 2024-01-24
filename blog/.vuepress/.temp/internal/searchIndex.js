@@ -104,166 +104,6 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
-    "path": "/dsa/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tổng quan về DSA",
-    "headers": [
-      {
-        "level": 2,
-        "title": "DSA là gì?",
-        "slug": "dsa-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cấu trúc dữ liệu là gì?",
-        "slug": "cau-truc-du-lieu-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán là gì?",
-        "slug": "thuat-toan-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Làm thế nào để bắt đầu học DSA?",
-        "slug": "lam-the-nao-đe-bat-đau-hoc-dsa",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Tìm hiểu về Sự phức tạp",
-            "slug": "_1-tim-hieu-ve-su-phuc-tap",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Tổng kết",
-        "slug": "tong-ket",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Danh sách đặc",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Danh sách đặc là gì?",
-        "slug": "danh-sach-đac-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mảng",
-        "slug": "mang",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Chuỗi",
-        "slug": "chuoi",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Danh sách liên kết",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Danh sách liên kết là gì?",
-        "slug": "danh-sach-lien-ket-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tại sao cần cấu trúc dữ liệu danh sách liên kết?",
-        "slug": "tai-sao-can-cau-truc-du-lieu-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Các loại danh sách liên kết:",
-        "slug": "cac-loai-danh-sach-lien-ket",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Danh sách liên kết đơn:",
-            "slug": "_1-danh-sach-lien-ket-đon",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Danh sách liên kết kép:",
-            "slug": "_2-danh-sach-lien-ket-kep",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Danh mục liên kết thông tư:",
-            "slug": "_3-danh-muc-lien-ket-thong-tu",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Hoạt động trên danh sách liên kết",
-        "slug": "hoat-đong-tren-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Ưu điểm của danh sách liên kết",
-        "slug": "uu-điem-cua-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thực hành",
-        "slug": "thuc-hanh",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sử dụng linkedList.h",
-            "slug": "su-dung-linkedlist-h",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sử dụng sentenceList.h",
-            "slug": "su-dung-sentencelist-h",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Kết thúc:",
-        "slug": "ket-thuc",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
     "path": "/java-core/",
     "pathLocale": "/",
     "extraFields": []
@@ -951,6 +791,166 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
+    "path": "/dsa/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tổng quan về DSA",
+    "headers": [
+      {
+        "level": 2,
+        "title": "DSA là gì?",
+        "slug": "dsa-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cấu trúc dữ liệu là gì?",
+        "slug": "cau-truc-du-lieu-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán là gì?",
+        "slug": "thuat-toan-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Làm thế nào để bắt đầu học DSA?",
+        "slug": "lam-the-nao-đe-bat-đau-hoc-dsa",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Tìm hiểu về Sự phức tạp",
+            "slug": "_1-tim-hieu-ve-su-phuc-tap",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Tổng kết",
+        "slug": "tong-ket",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Danh sách đặc",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách đặc là gì?",
+        "slug": "danh-sach-đac-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mảng",
+        "slug": "mang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Chuỗi",
+        "slug": "chuoi",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Danh sách liên kết",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách liên kết là gì?",
+        "slug": "danh-sach-lien-ket-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tại sao cần cấu trúc dữ liệu danh sách liên kết?",
+        "slug": "tai-sao-can-cau-truc-du-lieu-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Các loại danh sách liên kết:",
+        "slug": "cac-loai-danh-sach-lien-ket",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Danh sách liên kết đơn:",
+            "slug": "_1-danh-sach-lien-ket-đon",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Danh sách liên kết kép:",
+            "slug": "_2-danh-sach-lien-ket-kep",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Danh mục liên kết thông tư:",
+            "slug": "_3-danh-muc-lien-ket-thong-tu",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Hoạt động trên danh sách liên kết",
+        "slug": "hoat-đong-tren-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ưu điểm của danh sách liên kết",
+        "slug": "uu-điem-cua-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hành",
+        "slug": "thuc-hanh",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sử dụng linkedList.h",
+            "slug": "su-dung-linkedlist-h",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sử dụng sentenceList.h",
+            "slug": "su-dung-sentencelist-h",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Kết thúc:",
+        "slug": "ket-thuc",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
     "path": "/github/",
     "pathLocale": "/",
     "extraFields": []
@@ -1134,6 +1134,467 @@ export const searchIndex = [
     "title": "Bài 8",
     "headers": [],
     "path": "/github/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/java-oop/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Lập trình hướng đối tượng",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
+        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lập trình cấu trúc là gì",
+            "slug": "lap-trinh-cau-truc-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao hướng đối tượng có ưu thế hơn",
+            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Lập trình hướng đối tượng",
+        "slug": "_3-lap-trinh-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ:",
+            "slug": "vi-du",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Biểu diễn bằng code",
+        "slug": "_4-bieu-dien-bang-code",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo project",
+            "slug": "tao-project",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo lớp đối tượng",
+            "slug": "tao-lop-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo thuộc tính cho đối tượng",
+            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo phương thức cho đối tượng",
+            "slug": "tao-phuong-thuc-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo đối tượng từ lớp khác",
+            "slug": "tao-đoi-tuong-tu-lop-khac",
+            "children": [
+              {
+                "level": 4,
+                "title": "Gọi lại đối tượng",
+                "slug": "goi-lai-đoi-tuong",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Xuất giá trị thuộc tính",
+                "slug": "xuat-gia-tri-thuoc-tinh",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Gọi phương thức của đối tượng",
+                "slug": "goi-phuong-thuc-cua-đoi-tuong",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/java-oop/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Tính đa hình",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nạp chồng phương thức",
+        "slug": "nap-chong-phuong-thuc",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ghi đè phương thức",
+        "slug": "ghi-đe-phuong-thuc",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tổng kết",
+        "slug": "tong-ket",
+        "children": [
+          {
+            "level": 4,
+            "title": "Tính kế thừa là gì ?",
+            "slug": "tinh-ke-thua-la-gi",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Đặc điểm của tính đa hình là gì?",
+            "slug": "đac-điem-cua-tinh-đa-hinh-la-gi",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Tính kế thừa được biểu hiện như thế nào?",
+            "slug": "tinh-ke-thua-đuoc-bieu-hien-nhu-the-nao",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Tính nạp chồng là gì?",
+            "slug": "tinh-nap-chong-la-gi",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Tính ghi đè là gì?",
+            "slug": "tinh-ghi-đe-la-gi",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/java-oop/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Tính kế thừa",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Các thành phần",
+        "slug": "cac-thanh-phan",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lớp cơ sở (Lớp cha)",
+            "slug": "lop-co-so-lop-cha",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Lớp kế thừa (lớp con)",
+            "slug": "lop-ke-thua-lop-con",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Lớp đa kế thừa",
+            "slug": "lop-đa-ke-thua",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Một số lưu ý",
+            "slug": "mot-so-luu-y",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Tổng kết",
+        "slug": "tong-ket",
+        "children": []
+      }
+    ],
+    "path": "/java-oop/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Tính đóng gói",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Khái niệm",
+        "slug": "khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Biểu hiện",
+        "slug": "bieu-hien",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phạm vi truy cập",
+        "slug": "pham-vi-truy-cap",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Access Modifiers",
+            "slug": "_1-access-modifiers",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Non-Access Modifiers",
+            "slug": "_2-non-access-modifiers",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Giải thích cụ thể từng modifier",
+            "slug": "giai-thich-cu-the-tung-modifier",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Tại sao lại sử dụng tính đóng gói",
+        "slug": "tai-sao-lai-su-dung-tinh-đong-goi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mutator & Accessor",
+        "slug": "mutator-accessor",
+        "children": [
+          {
+            "level": 3,
+            "title": "Getter",
+            "slug": "getter",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Setter",
+            "slug": "setter",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ",
+            "slug": "vi-du",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Tổng kết",
+        "slug": "tong-ket",
+        "children": []
+      }
+    ],
+    "path": "/java-oop/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. Tính trừu tượng",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Abstract",
+        "slug": "_1-abstract",
+        "children": [
+          {
+            "level": 3,
+            "title": "Để truy cập vào abstract class, thì ta phải làm sao ?",
+            "slug": "đe-truy-cap-vao-abstract-class-thi-ta-phai-lam-sao",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. Interface",
+        "slug": "_2-interface",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tại sao ta phải sử dụng Interface ?",
+            "slug": "tai-sao-ta-phai-su-dung-interface",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Ở trên nói có thể dùng Interface để đa kế thừa, vậy dùng sao ?",
+            "slug": "o-tren-noi-co-the-dung-interface-đe-đa-ke-thua-vay-dung-sao",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/java-oop/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Những câu hỏi phỏng vấn Java OOP phổ biến nhất",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Thế nào là lập trình hướng đối tượng ?",
+        "slug": "the-nao-la-lap-trinh-huong-đoi-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Các tính chất của hướng đối tượng là gì ?",
+        "slug": "cac-tinh-chat-cua-huong-đoi-tuong-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là lớp?",
+        "slug": "the-nao-la-lop",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là đối tượng?",
+        "slug": "the-nao-la-đoi-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính đóng gói?",
+        "slug": "the-nao-la-tinh-đong-goi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có mấy loại access modifier? Phân biệt sự khác nhau giữa chúng?",
+        "slug": "co-may-loai-access-modifier-phan-biet-su-khac-nhau-giua-chung",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính đa hình?",
+        "slug": "the-nao-la-tinh-đa-hinh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phân biệt override và overload?",
+        "slug": "phan-biet-override-va-overload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể override 1 static method không?",
+        "slug": "co-the-override-1-static-method-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính trừu tượng?",
+        "slug": "the-nao-la-tinh-truu-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể sử dụng thuộc tính trong interface?",
+        "slug": "co-the-su-dung-thuoc-tinh-trong-interface",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Interface có thể là final không?",
+        "slug": "interface-co-the-la-final-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt phương thức trong interface?",
+        "slug": "co-the-cai-đat-phuong-thuc-trong-interface",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt phương thức trong abstract class?",
+        "slug": "co-the-cai-đat-phuong-thuc-trong-abstract-class",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt nhiều interface trong class không?",
+        "slug": "co-the-cai-đat-nhieu-interface-trong-class-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính kế thừa?",
+        "slug": "the-nao-la-tinh-ke-thua",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể sử dụng constructor của lớp cha để tạo đối tượng cho lớp con không?",
+        "slug": "co-the-su-dung-constructor-cua-lop-cha-đe-tao-đoi-tuong-cho-lop-con-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là static?",
+        "slug": "the-nao-la-static",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là final?",
+        "slug": "the-nao-la-final",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có bắt buộc phải khai báo constructor trong lớp?",
+        "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
+        "children": []
+      }
+    ],
+    "path": "/java-oop/session6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1511,339 +1972,6 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
-    "path": "/java-oop/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Lập trình hướng đối tượng",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Khái niệm",
-        "slug": "_1-khai-niem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
-        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Lập trình cấu trúc là gì",
-            "slug": "lap-trinh-cau-truc-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao hướng đối tượng có ưu thế hơn",
-            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. Lập trình hướng đối tượng",
-        "slug": "_3-lap-trinh-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ:",
-            "slug": "vi-du",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. Biểu diễn bằng code",
-        "slug": "_4-bieu-dien-bang-code",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo project",
-            "slug": "tao-project",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo lớp đối tượng",
-            "slug": "tao-lop-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo thuộc tính cho đối tượng",
-            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo phương thức cho đối tượng",
-            "slug": "tao-phuong-thuc-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo đối tượng từ lớp khác",
-            "slug": "tao-đoi-tuong-tu-lop-khac",
-            "children": [
-              {
-                "level": 4,
-                "title": "Gọi lại đối tượng",
-                "slug": "goi-lai-đoi-tuong",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Xuất giá trị thuộc tính",
-                "slug": "xuat-gia-tri-thuoc-tinh",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Gọi phương thức của đối tượng",
-                "slug": "goi-phuong-thuc-cua-đoi-tuong",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/java-oop/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Tính đa hình",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nạp chồng phương thức",
-        "slug": "nap-chong-phuong-thuc",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Ghi đè phương thức",
-        "slug": "ghi-đe-phuong-thuc",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tổng kết",
-        "slug": "tong-ket",
-        "children": [
-          {
-            "level": 4,
-            "title": "Tính kế thừa là gì ?",
-            "slug": "tinh-ke-thua-la-gi",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Đặc điểm của tính đa hình là gì?",
-            "slug": "đac-điem-cua-tinh-đa-hinh-la-gi",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Tính kế thừa được biểu hiện như thế nào?",
-            "slug": "tinh-ke-thua-đuoc-bieu-hien-nhu-the-nao",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Tính nạp chồng là gì?",
-            "slug": "tinh-nap-chong-la-gi",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Tính ghi đè là gì?",
-            "slug": "tinh-ghi-đe-la-gi",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/java-oop/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3. Tính kế thừa",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Các thành phần",
-        "slug": "cac-thanh-phan",
-        "children": [
-          {
-            "level": 3,
-            "title": "Lớp cơ sở (Lớp cha)",
-            "slug": "lop-co-so-lop-cha",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Lớp kế thừa (lớp con)",
-            "slug": "lop-ke-thua-lop-con",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Lớp đa kế thừa",
-            "slug": "lop-đa-ke-thua",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Một số lưu ý",
-            "slug": "mot-so-luu-y",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Tổng kết",
-        "slug": "tong-ket",
-        "children": []
-      }
-    ],
-    "path": "/java-oop/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4. Tính đóng gói",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Khái niệm",
-        "slug": "khai-niem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Biểu hiện",
-        "slug": "bieu-hien",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phạm vi truy cập",
-        "slug": "pham-vi-truy-cap",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Access Modifiers",
-            "slug": "_1-access-modifiers",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Non-Access Modifiers",
-            "slug": "_2-non-access-modifiers",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Giải thích cụ thể từng modifier",
-            "slug": "giai-thich-cu-the-tung-modifier",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Tại sao lại sử dụng tính đóng gói",
-        "slug": "tai-sao-lai-su-dung-tinh-đong-goi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mutator & Accessor",
-        "slug": "mutator-accessor",
-        "children": [
-          {
-            "level": 3,
-            "title": "Getter",
-            "slug": "getter",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Setter",
-            "slug": "setter",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Ví dụ",
-            "slug": "vi-du",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Tổng kết",
-        "slug": "tong-ket",
-        "children": []
-      }
-    ],
-    "path": "/java-oop/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. Tính trừu tượng",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Abstract",
-        "slug": "_1-abstract",
-        "children": [
-          {
-            "level": 3,
-            "title": "Để truy cập vào abstract class, thì ta phải làm sao ?",
-            "slug": "đe-truy-cap-vao-abstract-class-thi-ta-phai-lam-sao",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. Interface",
-        "slug": "_2-interface",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tại sao ta phải sử dụng Interface ?",
-            "slug": "tai-sao-ta-phai-su-dung-interface",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Ở trên nói có thể dùng Interface để đa kế thừa, vậy dùng sao ?",
-            "slug": "o-tren-noi-co-the-dung-interface-đe-đa-ke-thua-vay-dung-sao",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/java-oop/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
     "path": "/php-core/",
     "pathLocale": "/",
     "extraFields": []
@@ -2054,6 +2182,14 @@ export const searchIndex = [
     "path": "/spring-boot/session8.html",
     "pathLocale": "/",
     "extraFields": []
+  },
+  {
+    "title": "Links",
+    "headers": [],
+    "path": "/tech/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Links"
   },
   {
     "title": "Lời nói đầu",
@@ -2335,399 +2471,6 @@ export const searchIndex = [
     "path": "/sql-server/session8.html",
     "pathLocale": "/",
     "extraFields": []
-  },
-  {
-    "title": "Links",
-    "headers": [],
-    "path": "/tech/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Links"
-  },
-  {
-    "title": "Các Câu Hỏi Phỏng Vấn Java Thường Gặp P.1",
-    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
-    "headers": [
-      {
-        "level": 2,
-        "title": "I. Các câu hỏi Java core",
-        "slug": "i-cac-cau-hoi-java-core",
-        "children": [
-          {
-            "level": 3,
-            "title": "JDK, JRE và JVM là gì?",
-            "slug": "jdk-jre-va-jvm-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Đặc điểm nổi bật của Java 8",
-            "slug": "đac-điem-noi-bat-cua-java-8",
-            "children": [
-              {
-                "level": 4,
-                "title": "1. Lambda Expression",
-                "slug": "_1-lambda-expression",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "2. Default method in Interface",
-                "slug": "_2-default-method-in-interface",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "3. Optional Class",
-                "slug": "_3-optional-class",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "4. Java Stream API",
-                "slug": "_4-java-stream-api",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "5. Functional Interface",
-                "slug": "_5-functional-interface",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "6. Java Date Time API",
-                "slug": "_6-java-date-time-api",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Giải thích phương thức main() trong chương trình Java",
-            "slug": "giai-thich-phuong-thuc-main-trong-chuong-trinh-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao không sử dụng con trỏ trong Java?",
-            "slug": "tai-sao-khong-su-dung-con-tro-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao Java lại độc lập nền tảng?",
-            "slug": "tai-sao-java-lai-đoc-lap-nen-tang",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Package trong Java là gì? Liệt kê những ưu điểm của các package",
-            "slug": "package-trong-java-la-gi-liet-ke-nhung-uu-điem-cua-cac-package",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Khác biệt giữa bộ nhớ Stack và Heap",
-            "slug": "khac-biet-giua-bo-nho-stack-va-heap",
-            "children": [
-              {
-                "level": 4,
-                "title": "Về kích thước vùng nhớ",
-                "slug": "ve-kich-thuoc-vung-nho",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Về đặc điểm vùng nhớ",
-                "slug": "ve-đac-điem-vung-nho",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Lỗi xảy ra với vùng nhớ",
-                "slug": "loi-xay-ra-voi-vung-nho",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Hãy nêu sự khác biệt giữa biến local và biến instance",
-            "slug": "hay-neu-su-khac-biet-giua-bien-local-va-bien-instance",
-            "children": [
-              {
-                "level": 4,
-                "title": "Biến local",
-                "slug": "bien-local",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Biến instance",
-                "slug": "bien-instance",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Từ khóa final trong Java là gì?",
-            "slug": "tu-khoa-final-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Từ khóa static trong Java là gì?",
-            "slug": "tu-khoa-static-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Từ khóa super trong Java",
-            "slug": "tu-khoa-super-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Mô tả sự khác biệt giữa String, StringBuilder và StringBuffer",
-            "slug": "mo-ta-su-khac-biet-giua-string-stringbuilder-va-stringbuffer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Constructors trong Java là gì?",
-            "slug": "constructors-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Các lớp wrapper trong Java là gì?",
-            "slug": "cac-lop-wrapper-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Có bắt buộc phải khai báo constructor trong lớp?",
-            "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Các loại phạm vi truy cập trong Java",
-            "slug": "cac-loai-pham-vi-truy-cap-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Trình biên dịch JIT trong Java",
-            "slug": "trinh-bien-dich-jit-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Mô tả khác biệt giữa constructor và phương thức trong Java",
-            "slug": "mo-ta-khac-biet-giua-constructor-va-phuong-thuc-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sự khác biệt giữa từ khóa break và continue",
-            "slug": "su-khac-biet-giua-tu-khoa-break-va-continue",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Liên kết",
-        "slug": "lien-ket",
-        "children": []
-      }
-    ],
-    "path": "/post/interview/java-core-interview/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "Tìm hiểu về RestAPI và Restful API",
-    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Khái niệm",
-        "slug": "khai-niem",
-        "children": [
-          {
-            "level": 3,
-            "title": "RestAPI",
-            "slug": "restapi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Restful API",
-            "slug": "restful-api",
-            "children": [
-              {
-                "level": 4,
-                "title": "API",
-                "slug": "api",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "REST",
-                "slug": "rest",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Ví dụ thực tế",
-        "slug": "vi-du-thuc-te",
-        "children": [
-          {
-            "level": 4,
-            "title": "Non-Restful",
-            "slug": "non-restful",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Restful",
-            "slug": "restful",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Bonus",
-            "slug": "bonus",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Những câu hỏi phỏng vấn",
-        "slug": "nhung-cau-hoi-phong-van",
-        "children": [
-          {
-            "level": 4,
-            "title": "Phân biệt PUT và PATCH",
-            "slug": "phan-biet-put-va-patch",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/post/interview/restful-api/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "Tìm hiểu về giải thuật tham lam",
-    "subtitle": "Cấu trúc dữ liệu và giải thuật",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Giới thiệu",
-        "slug": "gioi-thieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tổng quan về giải thuật",
-        "slug": "tong-quan-ve-giai-thuat",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ 1",
-            "slug": "vi-du-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán",
-        "slug": "thuat-toan",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tính chất lựa chọn tham lam",
-            "slug": "tinh-chat-lua-chon-tham-lam",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cấu trúc con tối ưu",
-            "slug": "cau-truc-con-toi-uu",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Ví dụ 2",
-            "slug": "vi-du-2",
-            "children": [
-              {
-                "level": 4,
-                "title": "Đề bài",
-                "slug": "đe-bai",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Bài giải",
-                "slug": "bai-giai",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Ví dụ 3",
-            "slug": "vi-du-3",
-            "children": [
-              {
-                "level": 4,
-                "title": "Tính đúng đắn của thuật toán",
-                "slug": "tinh-đung-đan-cua-thuat-toan",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Phân tích thời gian",
-                "slug": "phan-tich-thoi-gian",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Tổng kết",
-            "slug": "tong-ket",
-            "children": [
-              {
-                "level": 4,
-                "title": "Liên kết",
-                "slug": "lien-ket",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/post/algorithm/greedy/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
   },
   {
     "title": "Xây dựng Json Web Token trong NodeJS",
@@ -3209,6 +2952,391 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
+    "title": "Các Câu Hỏi Phỏng Vấn Java Thường Gặp P.1",
+    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
+    "headers": [
+      {
+        "level": 2,
+        "title": "I. Các câu hỏi Java core",
+        "slug": "i-cac-cau-hoi-java-core",
+        "children": [
+          {
+            "level": 3,
+            "title": "JDK, JRE và JVM là gì?",
+            "slug": "jdk-jre-va-jvm-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Đặc điểm nổi bật của Java 8",
+            "slug": "đac-điem-noi-bat-cua-java-8",
+            "children": [
+              {
+                "level": 4,
+                "title": "1. Lambda Expression",
+                "slug": "_1-lambda-expression",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "2. Default method in Interface",
+                "slug": "_2-default-method-in-interface",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "3. Optional Class",
+                "slug": "_3-optional-class",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "4. Java Stream API",
+                "slug": "_4-java-stream-api",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "5. Functional Interface",
+                "slug": "_5-functional-interface",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "6. Java Date Time API",
+                "slug": "_6-java-date-time-api",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Giải thích phương thức main() trong chương trình Java",
+            "slug": "giai-thich-phuong-thuc-main-trong-chuong-trinh-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao không sử dụng con trỏ trong Java?",
+            "slug": "tai-sao-khong-su-dung-con-tro-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao Java lại độc lập nền tảng?",
+            "slug": "tai-sao-java-lai-đoc-lap-nen-tang",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Package trong Java là gì? Liệt kê những ưu điểm của các package",
+            "slug": "package-trong-java-la-gi-liet-ke-nhung-uu-điem-cua-cac-package",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Khác biệt giữa bộ nhớ Stack và Heap",
+            "slug": "khac-biet-giua-bo-nho-stack-va-heap",
+            "children": [
+              {
+                "level": 4,
+                "title": "Về kích thước vùng nhớ",
+                "slug": "ve-kich-thuoc-vung-nho",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Về đặc điểm vùng nhớ",
+                "slug": "ve-đac-điem-vung-nho",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Lỗi xảy ra với vùng nhớ",
+                "slug": "loi-xay-ra-voi-vung-nho",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Hãy nêu sự khác biệt giữa biến local và biến instance",
+            "slug": "hay-neu-su-khac-biet-giua-bien-local-va-bien-instance",
+            "children": [
+              {
+                "level": 4,
+                "title": "Biến local",
+                "slug": "bien-local",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Biến instance",
+                "slug": "bien-instance",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa final trong Java là gì?",
+            "slug": "tu-khoa-final-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa static trong Java là gì?",
+            "slug": "tu-khoa-static-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa super trong Java",
+            "slug": "tu-khoa-super-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mô tả sự khác biệt giữa String, StringBuilder và StringBuffer",
+            "slug": "mo-ta-su-khac-biet-giua-string-stringbuilder-va-stringbuffer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Constructors trong Java là gì?",
+            "slug": "constructors-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các lớp wrapper trong Java là gì?",
+            "slug": "cac-lop-wrapper-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Có bắt buộc phải khai báo constructor trong lớp?",
+            "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các loại phạm vi truy cập trong Java",
+            "slug": "cac-loai-pham-vi-truy-cap-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Trình biên dịch JIT trong Java",
+            "slug": "trinh-bien-dich-jit-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mô tả khác biệt giữa constructor và phương thức trong Java",
+            "slug": "mo-ta-khac-biet-giua-constructor-va-phuong-thuc-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sự khác biệt giữa từ khóa break và continue",
+            "slug": "su-khac-biet-giua-tu-khoa-break-va-continue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Liên kết",
+        "slug": "lien-ket",
+        "children": []
+      }
+    ],
+    "path": "/post/interview/java-core-interview/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Tìm hiểu về RestAPI và Restful API",
+    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Khái niệm",
+        "slug": "khai-niem",
+        "children": [
+          {
+            "level": 3,
+            "title": "RestAPI",
+            "slug": "restapi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Restful API",
+            "slug": "restful-api",
+            "children": [
+              {
+                "level": 4,
+                "title": "API",
+                "slug": "api",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "REST",
+                "slug": "rest",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Ví dụ thực tế",
+        "slug": "vi-du-thuc-te",
+        "children": [
+          {
+            "level": 4,
+            "title": "Non-Restful",
+            "slug": "non-restful",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Restful",
+            "slug": "restful",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Bonus",
+            "slug": "bonus",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Những câu hỏi phỏng vấn",
+        "slug": "nhung-cau-hoi-phong-van",
+        "children": [
+          {
+            "level": 4,
+            "title": "Phân biệt PUT và PATCH",
+            "slug": "phan-biet-put-va-patch",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/post/interview/restful-api/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Tìm hiểu về giải thuật tham lam",
+    "subtitle": "Cấu trúc dữ liệu và giải thuật",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Giới thiệu",
+        "slug": "gioi-thieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tổng quan về giải thuật",
+        "slug": "tong-quan-ve-giai-thuat",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ 1",
+            "slug": "vi-du-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán",
+        "slug": "thuat-toan",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tính chất lựa chọn tham lam",
+            "slug": "tinh-chat-lua-chon-tham-lam",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cấu trúc con tối ưu",
+            "slug": "cau-truc-con-toi-uu",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ 2",
+            "slug": "vi-du-2",
+            "children": [
+              {
+                "level": 4,
+                "title": "Đề bài",
+                "slug": "đe-bai",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Bài giải",
+                "slug": "bai-giai",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ 3",
+            "slug": "vi-du-3",
+            "children": [
+              {
+                "level": 4,
+                "title": "Tính đúng đắn của thuật toán",
+                "slug": "tinh-đung-đan-cua-thuat-toan",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Phân tích thời gian",
+                "slug": "phan-tich-thoi-gian",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Tổng kết",
+            "slug": "tong-ket",
+            "children": [
+              {
+                "level": 4,
+                "title": "Liên kết",
+                "slug": "lien-ket",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/post/algorithm/greedy/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/posts/swing/qr-extension.html",
@@ -3238,6 +3366,54 @@ export const searchIndex = [
     "pathLocale": "/",
     "extraFields": [],
     "layout": "HomePage"
+  },
+  {
+    "title": "Backend | Tags",
+    "headers": [],
+    "path": "/tags/backend/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Authentication | Tags",
+    "headers": [],
+    "path": "/tags/authentication/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Authoriztion | Tags",
+    "headers": [],
+    "path": "/tags/authoriztion/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "SpringBoot | Tags",
+    "headers": [],
+    "path": "/tags/springboot/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Redis | Tags",
+    "headers": [],
+    "path": "/tags/redis/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Security | Tags",
+    "headers": [],
+    "path": "/tags/security/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
   },
   {
     "title": "interview | Tags",
@@ -3280,14 +3456,6 @@ export const searchIndex = [
     "layout": "Tags"
   },
   {
-    "title": "BackEnd | Tags",
-    "headers": [],
-    "path": "/tags/backend/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
     "title": "Algorithm | Tags",
     "headers": [],
     "path": "/tags/algorithm/",
@@ -3307,46 +3475,6 @@ export const searchIndex = [
     "title": "Giải thuật | Tags",
     "headers": [],
     "path": "/tags/gi%E1%BA%A3i-thu%E1%BA%ADt/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Authentication | Tags",
-    "headers": [],
-    "path": "/tags/authentication/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Authoriztion | Tags",
-    "headers": [],
-    "path": "/tags/authoriztion/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "SpringBoot | Tags",
-    "headers": [],
-    "path": "/tags/springboot/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Redis | Tags",
-    "headers": [],
-    "path": "/tags/redis/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Security | Tags",
-    "headers": [],
-    "path": "/tags/security/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Tags"

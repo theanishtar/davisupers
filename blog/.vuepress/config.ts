@@ -55,14 +55,14 @@ export default defineUserConfig({
     searchText: " ",
     // personal information
     personalInfo: {
-      name: "Davis Nocturnal Tech Citadel",
-      avatar: "/img/logo/dvbg.png",
+      name: "Davisupers",
+      avatar: "/img/logo/thean.png",
       // description: "いつか、私がヒトじゃなくなっても",
-      description: "Môi trường học tập dành cho sinh viên CNTT",
+      description: "Nơi chia sẽ kiến thức CNTT",
       sns: {
         github: "Theanishtar",
         linkedin: "tranhuudang",
-        facebook: "davisnocturnal",
+        facebook: "theanishtar",
         twitter: "theanishtar",
         email: "dangthpc@gmail.com",
         // rss: "/rss.xml"
@@ -408,7 +408,7 @@ export default defineUserConfig({
     footer: `
       &copy; <a href="https://github.com/Theanishtar" target="_blank">Tran Huu Dang</a> 2023
       <br>
-      Powered by <a href="https://www.facebook.com/davisnocturnal/" target="_blank">Davis Nocturnal
+      Powered by <a href="https://www.facebook.com/vitamincodevn/" target="_blank">Vitamin Code
     `
   }),
 
@@ -421,9 +421,3 @@ export default defineUserConfig({
     }
   },
 });
-
-
-
-
-//Angurvadal -> Angurvad
-//Angurvadal là một thanh kiếm huyền thoại trong thần thoại Bắc Âu. Nó được khắc những chữ Rune ma thuật, những chữ này sẽ rực sáng trong lúc nó được mang đi giao chiến,  nhưng chỉ lấp lánh với ánh sáng mờ ảo trong lúc hòa bình. Theo thần thoại Bắc Âu, nó thuộc về Frithiof, con trai của người anh hùng Thorstein Vikingsson.

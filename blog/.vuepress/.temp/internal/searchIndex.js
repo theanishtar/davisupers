@@ -1,107 +1,5 @@
 export const searchIndex = [
   {
-    "title": "Giới thiệu về dự án",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Mục đích ra đời",
-        "slug": "muc-đich-ra-đoi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Ý tưởng và tên gọi",
-        "slug": "y-tuong-va-ten-goi",
-        "children": [
-          {
-            "level": 3,
-            "title": "Về ý tưởng",
-            "slug": "ve-y-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Về tên gọi",
-            "slug": "ve-ten-goi",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Các tính năng",
-        "slug": "cac-tinh-nang",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Công nghệ sử dụng",
-        "slug": "cong-nghe-su-dung",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phát triển dài hạn",
-        "slug": "phat-trien-dai-han",
-        "children": []
-      }
-    ],
-    "path": "/about/project.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Khai vị",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Một số bài báo về mình",
-        "slug": "mot-so-bai-bao-ve-minh",
-        "children": [
-          {
-            "level": 3,
-            "title": "Front-end Framework",
-            "slug": "front-end-framework",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Lập trình Java 5",
-            "slug": "lap-trinh-java-5",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Dự án 1",
-            "slug": "du-an-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Đôi nét về mình ?",
-        "slug": "đoi-net-ve-minh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Dự định trong trương lai?",
-        "slug": "du-đinh-trong-truong-lai",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Liên hệ với mình như thế nào?",
-        "slug": "lien-he-voi-minh-nhu-the-nao",
-        "children": []
-      }
-    ],
-    "path": "/about/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Lời nói đầu",
     "headers": [],
     "path": "/java-core/",
@@ -1599,6 +1497,108 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Giới thiệu về dự án",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Mục đích ra đời",
+        "slug": "muc-đich-ra-đoi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ý tưởng và tên gọi",
+        "slug": "y-tuong-va-ten-goi",
+        "children": [
+          {
+            "level": 3,
+            "title": "Về ý tưởng",
+            "slug": "ve-y-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Về tên gọi",
+            "slug": "ve-ten-goi",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Các tính năng",
+        "slug": "cac-tinh-nang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Công nghệ sử dụng",
+        "slug": "cong-nghe-su-dung",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phát triển dài hạn",
+        "slug": "phat-trien-dai-han",
+        "children": []
+      }
+    ],
+    "path": "/about/project.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Khai vị",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Một số bài báo về mình",
+        "slug": "mot-so-bai-bao-ve-minh",
+        "children": [
+          {
+            "level": 3,
+            "title": "Front-end Framework",
+            "slug": "front-end-framework",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Lập trình Java 5",
+            "slug": "lap-trinh-java-5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Dự án 1",
+            "slug": "du-an-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Đôi nét về mình ?",
+        "slug": "đoi-net-ve-minh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Dự định trong trương lai?",
+        "slug": "du-đinh-trong-truong-lai",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Liên hệ với mình như thế nào?",
+        "slug": "lien-he-voi-minh-nhu-the-nao",
+        "children": []
+      }
+    ],
+    "path": "/about/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Lời nói đầu",
     "headers": [],
     "path": "/nodejs/",
@@ -2184,14 +2184,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Links",
-    "headers": [],
-    "path": "/tech/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Links"
-  },
-  {
     "title": "Lời nói đầu",
     "headers": [],
     "path": "/sql-server/",
@@ -2471,6 +2463,14 @@ export const searchIndex = [
     "path": "/sql-server/session8.html",
     "pathLocale": "/",
     "extraFields": []
+  },
+  {
+    "title": "Links",
+    "headers": [],
+    "path": "/tech/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Links"
   },
   {
     "title": "Xây dựng Json Web Token trong NodeJS",
@@ -2952,6 +2952,105 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
+    "title": "Tìm hiểu về giải thuật tham lam",
+    "subtitle": "Cấu trúc dữ liệu và giải thuật",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Giới thiệu",
+        "slug": "gioi-thieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tổng quan về giải thuật",
+        "slug": "tong-quan-ve-giai-thuat",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ 1",
+            "slug": "vi-du-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán",
+        "slug": "thuat-toan",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tính chất lựa chọn tham lam",
+            "slug": "tinh-chat-lua-chon-tham-lam",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cấu trúc con tối ưu",
+            "slug": "cau-truc-con-toi-uu",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ 2",
+            "slug": "vi-du-2",
+            "children": [
+              {
+                "level": 4,
+                "title": "Đề bài",
+                "slug": "đe-bai",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Bài giải",
+                "slug": "bai-giai",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ 3",
+            "slug": "vi-du-3",
+            "children": [
+              {
+                "level": 4,
+                "title": "Tính đúng đắn của thuật toán",
+                "slug": "tinh-đung-đan-cua-thuat-toan",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Phân tích thời gian",
+                "slug": "phan-tich-thoi-gian",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Tổng kết",
+            "slug": "tong-ket",
+            "children": [
+              {
+                "level": 4,
+                "title": "Liên kết",
+                "slug": "lien-ket",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/post/algorithm/greedy/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
     "title": "Các Câu Hỏi Phỏng Vấn Java Thường Gặp P.1",
     "subtitle": "Ôn tập phỏng vấn cùng Ếch",
     "headers": [
@@ -3238,105 +3337,6 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
-    "title": "Tìm hiểu về giải thuật tham lam",
-    "subtitle": "Cấu trúc dữ liệu và giải thuật",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Giới thiệu",
-        "slug": "gioi-thieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tổng quan về giải thuật",
-        "slug": "tong-quan-ve-giai-thuat",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ 1",
-            "slug": "vi-du-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán",
-        "slug": "thuat-toan",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tính chất lựa chọn tham lam",
-            "slug": "tinh-chat-lua-chon-tham-lam",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cấu trúc con tối ưu",
-            "slug": "cau-truc-con-toi-uu",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Ví dụ 2",
-            "slug": "vi-du-2",
-            "children": [
-              {
-                "level": 4,
-                "title": "Đề bài",
-                "slug": "đe-bai",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Bài giải",
-                "slug": "bai-giai",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Ví dụ 3",
-            "slug": "vi-du-3",
-            "children": [
-              {
-                "level": 4,
-                "title": "Tính đúng đắn của thuật toán",
-                "slug": "tinh-đung-đan-cua-thuat-toan",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Phân tích thời gian",
-                "slug": "phan-tich-thoi-gian",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Tổng kết",
-            "slug": "tong-ket",
-            "children": [
-              {
-                "level": 4,
-                "title": "Liên kết",
-                "slug": "lien-ket",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/post/algorithm/greedy/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/posts/swing/qr-extension.html",
@@ -3416,6 +3416,30 @@ export const searchIndex = [
     "layout": "Tags"
   },
   {
+    "title": "Algorithm | Tags",
+    "headers": [],
+    "path": "/tags/algorithm/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Thuật toán | Tags",
+    "headers": [],
+    "path": "/tags/thu%E1%BA%ADt-to%C3%A1n/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Giải thuật | Tags",
+    "headers": [],
+    "path": "/tags/gi%E1%BA%A3i-thu%E1%BA%ADt/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
     "title": "interview | Tags",
     "headers": [],
     "path": "/tags/interview/",
@@ -3451,30 +3475,6 @@ export const searchIndex = [
     "title": "Junior | Tags",
     "headers": [],
     "path": "/tags/junior/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Algorithm | Tags",
-    "headers": [],
-    "path": "/tags/algorithm/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Thuật toán | Tags",
-    "headers": [],
-    "path": "/tags/thu%E1%BA%ADt-to%C3%A1n/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Giải thuật | Tags",
-    "headers": [],
-    "path": "/tags/gi%E1%BA%A3i-thu%E1%BA%ADt/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Tags"

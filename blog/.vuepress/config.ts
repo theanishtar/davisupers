@@ -41,7 +41,9 @@ export default defineUserConfig({
       { rel: "apple-touch-icon", href: `/img/logo/apple-touch-icon.png` }
     ],
     ["meta", { name: "theme-color", content: "#377bb5" }],
-    ["meta", { name: "msapplication-TileColor", content: "#377bb5" }]
+    ["meta", { name: "msapplication-TileColor", content: "#377bb5" }],
+    // thanh navbar
+    ["script", { src: "./js/nav.js" }]
   ],
 
   bundler: viteBundler(),

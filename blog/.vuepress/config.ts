@@ -43,7 +43,34 @@ export default defineUserConfig({
     ["meta", { name: "theme-color", content: "#377bb5" }],
     ["meta", { name: "msapplication-TileColor", content: "#377bb5" }],
     // thanh navbar
-    ["script", { src: "./js/nav.js" }]
+    // ["script", { src: "./js/nav.js" }],
+    ["script", { src: "https://raw.githubusercontent.com/dangtranhuu/DATN-CSS/main/nav.js" }],
+    // ["script", {
+    //   content: `var slideMask = document.querySelector('.sidebar-mask');
+    // var headerNav = document.querySelector('.navbar');
+    // var spanElement = document.createElement("span");
+    // spanElement.className = 'opNav';
+    // spanElement.textContent = "|||";
+    // headerNav.appendChild(spanElement);
+    // spanElement.onclick = function () {
+    //   var openNav = document.querySelector('.sidebar-open');
+    //   if (openNav)
+    //     closeNavBar();
+    //   openNavBar();
+    // };
+    // slideMask.onclick = function () {
+    //   var openNav = document.querySelector('.sidebar-open');
+    //   if (openNav)
+    //     closeNavBar();
+    // };
+    // function openNavBar() {
+    //   var noslidbar = document.querySelector('.no-sidebar');
+    //   noslidbar.classList.add('sidebar-open');
+    // }
+    // function closeNavBar() {
+    //   var noslidbar = document.querySelector('.no-sidebar');
+    //   noslidbar.classList.remove('sidebar-open');
+    // }` }]
   ],
 
   bundler: viteBundler(),

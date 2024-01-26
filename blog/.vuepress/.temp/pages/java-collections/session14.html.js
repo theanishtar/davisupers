@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-1dabf16c\",\"path\":\"/java-collections/session14.html\",\"title\":\"15. Enum\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":null},\"readingTime\":{\"minutes\":1,\"words\":2},\"filePathRelative\":\"java-collections/session14.md\"}")

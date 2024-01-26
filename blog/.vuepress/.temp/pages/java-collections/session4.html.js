@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-7976758f\",\"path\":\"/java-collections/session4.html\",\"title\":\"5. So sánh ArrayList và LinkedList\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":null},\"readingTime\":{\"minutes\":1,\"words\":7},\"filePathRelative\":\"java-collections/session4.md\"}")

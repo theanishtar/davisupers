@@ -262,6 +262,11 @@ export default defineUserConfig({
                 link: "/java-oop/",
                 icon: "vi-file-type-maven"
               },
+              {
+                text: "Các Collections trong Java",
+                link: "/java-collections/",
+                icon: "vi-file-type-maven"
+              },
             ]
           },
           {

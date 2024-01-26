@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-188d678f\",\"path\":\"/java-collections/session11.html\",\"title\":\"12. LinkedHashMap\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":null},\"readingTime\":{\"minutes\":1,\"words\":2},\"filePathRelative\":\"java-collections/session11.md\"}")

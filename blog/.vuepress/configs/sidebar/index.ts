@@ -109,6 +109,28 @@ export const en: SidebarConfig = {
     "/spring-boot/session6.md",
     "/spring-boot/session7.md",
     "/spring-boot/session8.md",
+  ],
+
+  "/java-collections/": [
+    "/java-collections/readme.md",
+    "/java-collections/session1.md",
+    "/java-collections/session2.md",
+    "/java-collections/session3.md",
+    "/java-collections/session4.md",
+    "/java-collections/session5.md",
+    "/java-collections/session6.md",
+    "/java-collections/session7.md",
+    "/java-collections/session8.md",
+    "/java-collections/session9.md",
+    "/java-collections/session10.md",
+    "/java-collections/session11.md",
+    "/java-collections/session12.md",
+    "/java-collections/session13.md",
+    "/java-collections/session14.md",
+    "/java-collections/session15.md",
+    "/java-collections/session16.md",
+    "/java-collections/session17.md",
+    "/java-collections/session18.md",
   ]
 };
 

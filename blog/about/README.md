@@ -2,6 +2,22 @@
 
 ## Một số bài báo về mình 
 
+### Dự án tốt nghiệp
+
+<img src="https://github.com/dangtranhuu/images/blob/main/news/front-end-framework.png?raw=true" title="" alt="06-00-18-00-html5.gif" width="800">
+
+- Dự án tốt nghiệp là cột mốc đánh dấu bản thân tại FPL. Mình đã rất cố gắng xây dựng một dự án hội tụ đủ các yêu cầu về công nghệ, nghiệp vụ, giao diện,...
+
+- Và cuối cùng DESTINY ra đời như thành quả không chỉ của mình, mà là của cả nhóm cùng nhau nhiệt huyết, hăng hái xây dựng
+
+- Với số điểm cao nhất lịch sử FPL (mình nghe đồn là vậy 😅) là 9.8/10
+
+- Destiny là một website + mobile app dùng để chia sẽ những thứ hay ho, mang lại giá trị cho người khác (bạn có thể hiểu nó là một mạng xã hội tương tự FB, nhưng chắc chắn là đơn giản hơn)
+
+- Với thời gian deadline quá ngắn, mình cũng không thể phát triển quá tối ưu, nhưng mình thấy nó thật sự rất tuyệt vời đối với mình tại thời điểm đó.
+
+- Các bạn có thể đọc tại [đây](https://caodang.fpt.edu.vn/tin-tuc-poly/can-tho-tin-sinh-vien/nam-sinh-fpt-polytechnic-can-tho-tai-nang-sang-tao-he-thong-hoc-lap-trinh-bo-ich.html?fbclid=IwAR3G-CHLOW5ot3GL64bRN8nAai-yfs1cJNNKmqSZ6AIzm3I4EenWiM671Sw)
+
 ### Front-end Framework
 
 <img src="https://github.com/dangtranhuu/images/blob/main/news/front-end-framework.png?raw=true" title="" alt="06-00-18-00-html5.gif" width="800">

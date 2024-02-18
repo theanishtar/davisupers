@@ -60,6 +60,12 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
+            "title": "Dự án tốt nghiệp",
+            "slug": "du-an-tot-nghiep",
+            "children": []
+          },
+          {
+            "level": 3,
             "title": "Front-end Framework",
             "slug": "front-end-framework",
             "children": []
@@ -98,6 +104,195 @@ export const searchIndex = [
       }
     ],
     "path": "/about/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/github/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Setup môi trường",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Git là gì?",
+        "slug": "git-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "GitHub là gì?",
+        "slug": "github-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cài đặt Git và Tạo tài khoản GitHub",
+        "slug": "cai-đat-git-va-tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo tài khoản GitHub",
+        "slug": "tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Đăng nhập vào Git",
+        "slug": "đang-nhap-vao-git",
+        "children": []
+      }
+    ],
+    "path": "/github/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Đẩy code lên GitHub",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Quy trình đẩy code",
+        "slug": "quy-trinh-đay-code",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo Repository tại GitHub.com",
+        "slug": "tao-repository-tai-github-com",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Clone Repo về máy tính của bạn",
+        "slug": "clone-repo-ve-may-tinh-cua-ban",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Lấy lại toàn bộ code từ repo về máy tính",
+        "slug": "lay-lai-toan-bo-code-tu-repo-ve-may-tinh",
+        "children": []
+      }
+    ],
+    "path": "/github/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3 Undo khi gặp một commit sai",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Ví dụ",
+        "slug": "vi-du",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.1 Git Reset",
+        "slug": "_3-1-git-reset",
+        "children": [
+          {
+            "level": 3,
+            "title": "Các thao tác",
+            "slug": "cac-thao-tac",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.2 Git Revert",
+        "slug": "_3-2-git-revert",
+        "children": []
+      }
+    ],
+    "path": "/github/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4 Làm việc nhóm",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Quy trình làm việc",
+        "slug": "quy-trinh-lam-viec",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thêm thành viên vào Repository",
+        "slug": "them-thanh-vien-vao-repository",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xác nhận tham gia",
+        "slug": "xac-nhan-tham-gia",
+        "children": []
+      }
+    ],
+    "path": "/github/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. Làm việc với nhánh",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tạo nhánh",
+        "slug": "tao-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Di chuyển qua lại giữa các nhánh",
+        "slug": "di-chuyen-qua-lai-giua-cac-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Gộp nhánh",
+        "slug": "gop-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xóa nhánh",
+        "slug": "xoa-nhanh",
+        "children": []
+      }
+    ],
+    "path": "/github/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Thao tác bằng GitHub Desktop",
+    "headers": [],
+    "path": "/github/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7",
+    "headers": [],
+    "path": "/github/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8",
+    "headers": [],
+    "path": "/github/session8.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -258,6 +453,297 @@ export const searchIndex = [
       }
     ],
     "path": "/dsa/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. Tìm hiểu về Collections trong Java",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Khái niệm về Collections trong Java",
+        "slug": "khai-niem-ve-collections-trong-java",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cài đặt trong Collections",
+        "slug": "cai-đat-trong-collections",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phần interface trong collections",
+        "slug": "phan-interface-trong-collections",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phần thuật toán trong collections",
+        "slug": "phan-thuat-toan-trong-collections",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Collection trong Java",
+        "slug": "collection-trong-java",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán trong Collections",
+        "slug": "thuat-toan-trong-collections",
+        "children": []
+      }
+    ],
+    "path": "/java-collections/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. List",
+    "headers": [],
+    "path": "/java-collections/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "11. HashMap",
+    "headers": [],
+    "path": "/java-collections/session10.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "12. LinkedHashMap",
+    "headers": [],
+    "path": "/java-collections/session11.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "13. TreeMap",
+    "headers": [],
+    "path": "/java-collections/session12.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "14. HashTable",
+    "headers": [],
+    "path": "/java-collections/session13.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "15. Enum",
+    "headers": [],
+    "path": "/java-collections/session14.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "16. EnumMap",
+    "headers": [],
+    "path": "/java-collections/session15.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "17. EnumSet",
+    "headers": [],
+    "path": "/java-collections/session16.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "18. Sorted",
+    "headers": [],
+    "path": "/java-collections/session17.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Những câu hỏi phỏng vấn Java OOP phổ biến nhất",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Thế nào là lập trình hướng đối tượng ?",
+        "slug": "the-nao-la-lap-trinh-huong-đoi-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Các tính chất của hướng đối tượng là gì ?",
+        "slug": "cac-tinh-chat-cua-huong-đoi-tuong-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là lớp?",
+        "slug": "the-nao-la-lop",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là đối tượng?",
+        "slug": "the-nao-la-đoi-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính đóng gói?",
+        "slug": "the-nao-la-tinh-đong-goi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có mấy loại access modifier? Phân biệt sự khác nhau giữa chúng?",
+        "slug": "co-may-loai-access-modifier-phan-biet-su-khac-nhau-giua-chung",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính đa hình?",
+        "slug": "the-nao-la-tinh-đa-hinh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phân biệt override và overload?",
+        "slug": "phan-biet-override-va-overload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể override 1 static method không?",
+        "slug": "co-the-override-1-static-method-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính trừu tượng?",
+        "slug": "the-nao-la-tinh-truu-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể sử dụng thuộc tính trong interface?",
+        "slug": "co-the-su-dung-thuoc-tinh-trong-interface",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Interface có thể là final không?",
+        "slug": "interface-co-the-la-final-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt phương thức trong interface?",
+        "slug": "co-the-cai-đat-phuong-thuc-trong-interface",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt phương thức trong abstract class?",
+        "slug": "co-the-cai-đat-phuong-thuc-trong-abstract-class",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt nhiều interface trong class không?",
+        "slug": "co-the-cai-đat-nhieu-interface-trong-class-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính kế thừa?",
+        "slug": "the-nao-la-tinh-ke-thua",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể sử dụng constructor của lớp cha để tạo đối tượng cho lớp con không?",
+        "slug": "co-the-su-dung-constructor-cua-lop-cha-đe-tao-đoi-tuong-cho-lop-con-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là static?",
+        "slug": "the-nao-la-static",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là final?",
+        "slug": "the-nao-la-final",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có bắt buộc phải khai báo constructor trong lớp?",
+        "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
+        "children": []
+      }
+    ],
+    "path": "/java-collections/session18.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3. ArrayList",
+    "headers": [],
+    "path": "/java-collections/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "LinkedList",
+    "headers": [],
+    "path": "/java-collections/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5. So sánh ArrayList và LinkedList",
+    "headers": [],
+    "path": "/java-collections/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6. Set",
+    "headers": [],
+    "path": "/java-collections/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7. HashSet",
+    "headers": [],
+    "path": "/java-collections/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8. LinkedHashSet",
+    "headers": [],
+    "path": "/java-collections/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "9. TreeSet",
+    "headers": [],
+    "path": "/java-collections/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10. Map",
+    "headers": [],
+    "path": "/java-collections/session9.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1251,9 +1737,16 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "Để truy cập vào abstract class, thì ta phải làm sao ?",
-            "slug": "đe-truy-cap-vao-abstract-class-thi-ta-phai-lam-sao",
-            "children": []
+            "title": "Lớp trừu tượng",
+            "slug": "lop-truu-tuong",
+            "children": [
+              {
+                "level": 4,
+                "title": "Thực thi",
+                "slug": "thuc-thi",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1264,14 +1757,63 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "Tại sao ta phải sử dụng Interface ?",
-            "slug": "tai-sao-ta-phai-su-dung-interface",
+            "title": "Tính chất của Interface",
+            "slug": "tinh-chat-cua-interface",
             "children": []
           },
           {
             "level": 3,
-            "title": "Ở trên nói có thể dùng Interface để đa kế thừa, vậy dùng sao ?",
-            "slug": "o-tren-noi-co-the-dung-interface-đe-đa-ke-thua-vay-dung-sao",
+            "title": "Các lưu ý",
+            "slug": "cac-luu-y",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao ta phải sử dụng Interface ?",
+            "slug": "tai-sao-ta-phai-su-dung-interface",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "So sánh Interface và Absctract",
+        "slug": "so-sanh-interface-va-absctract",
+        "children": [
+          {
+            "level": 3,
+            "title": "Các phương thức",
+            "slug": "cac-phuong-thuc",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các biến",
+            "slug": "cac-bien",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực thi",
+            "slug": "thuc-thi-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Kế thừa",
+            "slug": "ke-thua",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Trừu tượng",
+            "slug": "truu-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Khả năng truy cập",
+            "slug": "kha-nang-truy-cap",
             "children": []
           }
         ]
@@ -1406,486 +1948,6 @@ export const searchIndex = [
       }
     ],
     "path": "/java-oop/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/github/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Setup môi trường",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Git là gì?",
-        "slug": "git-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "GitHub là gì?",
-        "slug": "github-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cài đặt Git và Tạo tài khoản GitHub",
-        "slug": "cai-đat-git-va-tao-tai-khoan-github",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo tài khoản GitHub",
-        "slug": "tao-tai-khoan-github",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Đăng nhập vào Git",
-        "slug": "đang-nhap-vao-git",
-        "children": []
-      }
-    ],
-    "path": "/github/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Đẩy code lên GitHub",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Quy trình đẩy code",
-        "slug": "quy-trinh-đay-code",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo Repository tại GitHub.com",
-        "slug": "tao-repository-tai-github-com",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Clone Repo về máy tính của bạn",
-        "slug": "clone-repo-ve-may-tinh-cua-ban",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Lấy lại toàn bộ code từ repo về máy tính",
-        "slug": "lay-lai-toan-bo-code-tu-repo-ve-may-tinh",
-        "children": []
-      }
-    ],
-    "path": "/github/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3 Undo khi gặp một commit sai",
-    "headers": [
-      {
-        "level": 3,
-        "title": "Ví dụ",
-        "slug": "vi-du",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.1 Git Reset",
-        "slug": "_3-1-git-reset",
-        "children": [
-          {
-            "level": 3,
-            "title": "Các thao tác",
-            "slug": "cac-thao-tac",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.2 Git Revert",
-        "slug": "_3-2-git-revert",
-        "children": []
-      }
-    ],
-    "path": "/github/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4 Làm việc nhóm",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Quy trình làm việc",
-        "slug": "quy-trinh-lam-viec",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thêm thành viên vào Repository",
-        "slug": "them-thanh-vien-vao-repository",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xác nhận tham gia",
-        "slug": "xac-nhan-tham-gia",
-        "children": []
-      }
-    ],
-    "path": "/github/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. Làm việc với nhánh",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Tạo nhánh",
-        "slug": "tao-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Di chuyển qua lại giữa các nhánh",
-        "slug": "di-chuyen-qua-lai-giua-cac-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Gộp nhánh",
-        "slug": "gop-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xóa nhánh",
-        "slug": "xoa-nhanh",
-        "children": []
-      }
-    ],
-    "path": "/github/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Thao tác bằng GitHub Desktop",
-    "headers": [],
-    "path": "/github/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7",
-    "headers": [],
-    "path": "/github/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8",
-    "headers": [],
-    "path": "/github/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. Tìm hiểu về Collections trong Java",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Khái niệm về Collections trong Java",
-        "slug": "khai-niem-ve-collections-trong-java",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cài đặt trong Collections",
-        "slug": "cai-đat-trong-collections",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phần interface trong collections",
-        "slug": "phan-interface-trong-collections",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phần thuật toán trong collections",
-        "slug": "phan-thuat-toan-trong-collections",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Collection trong Java",
-        "slug": "collection-trong-java",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán trong Collections",
-        "slug": "thuat-toan-trong-collections",
-        "children": []
-      }
-    ],
-    "path": "/java-collections/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. List",
-    "headers": [],
-    "path": "/java-collections/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "11. HashMap",
-    "headers": [],
-    "path": "/java-collections/session10.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "12. LinkedHashMap",
-    "headers": [],
-    "path": "/java-collections/session11.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "13. TreeMap",
-    "headers": [],
-    "path": "/java-collections/session12.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "14. HashTable",
-    "headers": [],
-    "path": "/java-collections/session13.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "15. Enum",
-    "headers": [],
-    "path": "/java-collections/session14.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "16. EnumMap",
-    "headers": [],
-    "path": "/java-collections/session15.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "17. EnumSet",
-    "headers": [],
-    "path": "/java-collections/session16.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "18. Sorted",
-    "headers": [],
-    "path": "/java-collections/session17.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Những câu hỏi phỏng vấn Java OOP phổ biến nhất",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Thế nào là lập trình hướng đối tượng ?",
-        "slug": "the-nao-la-lap-trinh-huong-đoi-tuong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Các tính chất của hướng đối tượng là gì ?",
-        "slug": "cac-tinh-chat-cua-huong-đoi-tuong-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là lớp?",
-        "slug": "the-nao-la-lop",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là đối tượng?",
-        "slug": "the-nao-la-đoi-tuong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính đóng gói?",
-        "slug": "the-nao-la-tinh-đong-goi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có mấy loại access modifier? Phân biệt sự khác nhau giữa chúng?",
-        "slug": "co-may-loai-access-modifier-phan-biet-su-khac-nhau-giua-chung",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính đa hình?",
-        "slug": "the-nao-la-tinh-đa-hinh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phân biệt override và overload?",
-        "slug": "phan-biet-override-va-overload",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể override 1 static method không?",
-        "slug": "co-the-override-1-static-method-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính trừu tượng?",
-        "slug": "the-nao-la-tinh-truu-tuong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể sử dụng thuộc tính trong interface?",
-        "slug": "co-the-su-dung-thuoc-tinh-trong-interface",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Interface có thể là final không?",
-        "slug": "interface-co-the-la-final-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể cài đặt phương thức trong interface?",
-        "slug": "co-the-cai-đat-phuong-thuc-trong-interface",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể cài đặt phương thức trong abstract class?",
-        "slug": "co-the-cai-đat-phuong-thuc-trong-abstract-class",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể cài đặt nhiều interface trong class không?",
-        "slug": "co-the-cai-đat-nhieu-interface-trong-class-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính kế thừa?",
-        "slug": "the-nao-la-tinh-ke-thua",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể sử dụng constructor của lớp cha để tạo đối tượng cho lớp con không?",
-        "slug": "co-the-su-dung-constructor-cua-lop-cha-đe-tao-đoi-tuong-cho-lop-con-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là static?",
-        "slug": "the-nao-la-static",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là final?",
-        "slug": "the-nao-la-final",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có bắt buộc phải khai báo constructor trong lớp?",
-        "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
-        "children": []
-      }
-    ],
-    "path": "/java-collections/session18.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "3. ArrayList",
-    "headers": [],
-    "path": "/java-collections/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "LinkedList",
-    "headers": [],
-    "path": "/java-collections/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5. So sánh ArrayList và LinkedList",
-    "headers": [],
-    "path": "/java-collections/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6. Set",
-    "headers": [],
-    "path": "/java-collections/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7. HashSet",
-    "headers": [],
-    "path": "/java-collections/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8. LinkedHashSet",
-    "headers": [],
-    "path": "/java-collections/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "9. TreeSet",
-    "headers": [],
-    "path": "/java-collections/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10. Map",
-    "headers": [],
-    "path": "/java-collections/session9.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3795,16 +3857,3 @@ export const searchIndex = [
     "layout": "HomePage"
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

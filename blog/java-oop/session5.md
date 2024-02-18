@@ -25,34 +25,37 @@ Lập trình hướng đối tượng gồm 4 tính chất chính: [Tính đóng
 
 > 💡 Hiểu đơn giản thì bạn gọi một món ăn thì bạn không cần phải biết quy trình nấu ăn, công thức nấu... chỉ cần ăn thôi. 
 
-Từ khoá `abstract` là một `non-access modifier` bạn đã học trong bài [Phạm vi truy cập](https://github.com/Zenfection/Java/blob/master/Java%20OOP/2.Modifier.md) , sử dụng cho `classes` và `methods` : 
+Từ khoá `abstract` là một `non-access modifier`, sử dụng cho `classes` và `methods` : 
 
 - `Abstract class` : đây là một `class` không được sử dụng để tạo `Object` (*nó chỉ dùng để kế thừa*).
 - `Abstact method` : có thể sử dụng trong `Abstract class` và không có phần `body` (*phần `body` được cung cấp bởi `subclass` hoặc kế thừa từ nó*).
 
+### Lớp trừu tượng
+
 ```java
-abstract class Animal {
-    public abstract void animalSound();
+abstract class Animal { //lớp trừu tượng
+    public abstract void animalSound(); //phương thức trừu tượng
     public void sleep() {
         System.out.println("Zzz");
     }
 }
 ```
 
-> ⚠️ Không thể tạo `Object` từ một lớp `Abstract` như sau : 
+#### Thực thi
+
+⚠️ Không thể tạo `Object` từ một lớp `Abstract` như sau : 
+
 > 
 > ```java
 > Animal myObj = new Animal(); // sẽ lỗi
 > ```
 
-### Để truy cập vào `abstract class`, thì ta phải làm sao ?
-
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/01-13-25-05-Questions%20And%20Answers.png"> Trả lời</b></summary>
-
-<br>
-
-Nó phải được kế thừa từ `class` khác. Hãy đổi lớp `Animal` mà ta sử udng5 
+:::tip
+- Lớp trừu tượng không thể khởi tạo bằng từ khóa `new`
+- Để sử dụng được lớp trừu tượng, ta cần tạo một lớp thỏa mãn hai yêu cầu sau:
+  - Lớp này không phải là lớp trừu tượng (Abstract Class)
+  - Lớp này sẽ kế thừa và trở thành lớp con của lớp trừu tượng
+:::
 
 ```java
 //khai báo lớp abstract
@@ -65,7 +68,7 @@ abstract class Animal{
 //khai báo subclass (kế thừa từ lớp Animal)
 class Cat extends Animal{
     public void animalSound(){
-        System.out.println("Con mèo kêu : mèo méo meo");
+        System.out.println("mèo méo meo mèo meo");
     }
 }
 
@@ -76,13 +79,12 @@ class Main{
         myCat.sleep();
     }
 }
-/* Con mèo kêu : mèo méo meo
+/* mèo méo meo
    Zzz  */
 ```
 
 > 💡 Như bạn đã thấy, `abstract class` chỉ cho phép kế thừa nó, và ta sử dụng thôi, dễ mà !!!
 
-</details>
 
 > 🚀 Ta sử dụng tính `Abstract` (*trừu tượng*) để : 
 > 
@@ -99,11 +101,11 @@ class Main{
 //interface
 interface Animal{
     public void animalSound();//không có body => gọi là interface methods =
-    public void run();//không có body => gọi là interface method
+    public void run();//không có body => gọi là interface method, cũng được xem là phương thức trừu tượng
 }
 ```
 
-> 🔥 Để truy cập vào `Interface Methods` ta phải dùng từ khoá `implements` (*thay vì sử dụng `extends`*) như sau : 
+Để truy cập vào `Interface Methods` ta phải dùng từ khoá `implements` (*thay vì sử dụng `extends`*) như sau : 
 
 ```java
 interface Animal{
@@ -128,69 +130,55 @@ class Main{
    Zzz, khò khò  */
 ```
 
-> 🧨 Tính chất của `Interface` : 
+### Tính chất của `Interface`
 > 
 > - Các `Interface methods` không có phần `body`, được cung cấp bởi lớp `implement`
 > - Về việc dùng `Interface`, bạn phải ghi đè lại tất cả `methods`
 > - Mặc định thì `Interface methods` là `abstract` và `public`
 > - Mặc định thì `Interface attributes` là `public`, `static`, `final`
 > 
-> ⚠️ Các lưu ý sau : 
-> 
-> - Giống như `abstract class`, `interface` không sử dụng để tạo `Object`
-> - Một `Interface` không thể chứa `constructor`
+
+### Các lưu ý
+
+- Giống như `abstract class`, `interface` không sử dụng để tạo `Object`
+- Một `Interface` không thể chứa `constructor`
 
 ### Tại sao ta phải sử dụng `Interface` ?
 
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/01-13-25-05-Questions%20And%20Answers.png"> Trả lời</b></summary>
 
 <br>
 
 - Để được sử bảo mật an toàn.
-- `Java` không hỗ trợ `multiple inheritance` (*đa kế thừa*) - tức là một `class` có thể kế thừa từ một `subclass` ==> Tuy nhiên ta có thể làm được điều đó bằng cách sử dụng `Interface`
+- `Java` không hỗ trợ `multiple inheritance` (*đa kế thừa*), tức là một `class` có thể kế thừa từ một `subclass` ==> Tuy nhiên ta có thể làm được điều đó bằng cách sử dụng `Interface` (Xem lại bài [Tính kế thừa](/java-oop/session3.html))
 
 > 💭 Đơn giản hơn là khi bạn vào nhà hàng, người ta sẽ đưa cho bạn cái menu chọn món, chứ không ai lại dẫn bạn vào nhà bếp coi món nào để chọn ==> `Interface` là cái menu đó.
 
-</details>
 
-<br>
+## So sánh Interface và Absctract
 
-### Ở trên nói có thể dùng `Interface` để đa kế thừa, vậy dùng sao ?
+### Các phương thức 
 
-<details>
-<summary><b><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/02/01-13-25-05-Questions%20And%20Answers.png"> Trả lời</b></summary>
+- Tất cả phương thức trong Interface đều là phương thức trừu tượng (không có phần thân). Từ Java8 có thêm các phương thức `default`, `static`
+- Abstract Class thì có cả các loại phương thức khác
 
-<br>
+### Các biến
+- Trong Interface, các biến là `final` (constant) và `static`
+- Abstract Class có thể `final` hoặc không, `static` hoặc không
 
-Ta sử dụng từ khoá `implement` đến nhiều `Interface` cách nhau bởi dấu `;` như sau : 
+### Thực thi
 
-```java
-interface firstInterface(){
-    public void myMethod1();
-}
-interface secondInterface(){
-    public void myMethod2();
-}
+- Để triển khai một Interface ta sẽ dừng từ khóa implements
+- Abstract Class thì dùng extends
 
-class Demo implements firstInterface, secondInterface {
-    public void myMethod1(){
-        System.out.println("bla bla bla");
-    }
-    public void myMethod2(){
-        System.out.println("ble ble ble");
-    }
-}
+### Kế thừa
+- Interface có thể extends từ các Interfaces khác
+- Abstract Class thể thể extends một lớp khác và implements nhiều interfaces 
 
-class Main{
-    public static void main(String[] args) {
-        DemoClass myObj = new DemoClass();
-        myObj.myMethod();
-        myObj.myOtherMethod();
-    }
-}
-/* bla bla bla
-   ble ble ble */
-```
+### Trừu tượng
 
-</details>
+- Interface đạt được trừu tượng toàn phần (chứa các `non-abstract method`)
+- Abstract Class chỉ đath trừu tượng một phần
+
+### Khả năng truy cập 
+- Interface mặc định các methods, attribute là `public`
+- Abstract Class có thể tất cả như `private`, `protected` 

@@ -1,5 +1,27 @@
 <template><div><h1 id="khai-vi" tabindex="-1"><a class="header-anchor" href="#khai-vi" aria-hidden="true">#</a> Khai vị</h1>
 <h2 id="mot-so-bai-bao-ve-minh" tabindex="-1"><a class="header-anchor" href="#mot-so-bai-bao-ve-minh" aria-hidden="true">#</a> Một số bài báo về mình</h2>
+<h3 id="du-an-tot-nghiep" tabindex="-1"><a class="header-anchor" href="#du-an-tot-nghiep" aria-hidden="true">#</a> Dự án tốt nghiệp</h3>
+<img src="https://github.com/dangtranhuu/images/blob/main/news/front-end-framework.png?raw=true" title="" alt="06-00-18-00-html5.gif" width="800">
+<ul>
+<li>
+<p>Dự án tốt nghiệp là cột mốc đánh dấu bản thân tại FPL. Mình đã rất cố gắng xây dựng một dự án hội tụ đủ các yêu cầu về công nghệ, nghiệp vụ, giao diện,...</p>
+</li>
+<li>
+<p>Và cuối cùng DESTINY ra đời như thành quả không chỉ của mình, mà là của cả nhóm cùng nhau nhiệt huyết, hăng hái xây dựng</p>
+</li>
+<li>
+<p>Với số điểm cao nhất lịch sử FPL (mình nghe đồn là vậy 😅) là 9.8/10</p>
+</li>
+<li>
+<p>Destiny là một website + mobile app dùng để chia sẽ những thứ hay ho, mang lại giá trị cho người khác (bạn có thể hiểu nó là một mạng xã hội tương tự FB, nhưng chắc chắn là đơn giản hơn)</p>
+</li>
+<li>
+<p>Với thời gian deadline quá ngắn, mình cũng không thể phát triển quá tối ưu, nhưng mình thấy nó thật sự rất tuyệt vời đối với mình tại thời điểm đó.</p>
+</li>
+<li>
+<p>Các bạn có thể đọc tại <a href="https://caodang.fpt.edu.vn/tin-tuc-poly/can-tho-tin-sinh-vien/nam-sinh-fpt-polytechnic-can-tho-tai-nang-sang-tao-he-thong-hoc-lap-trinh-bo-ich.html?fbclid=IwAR3G-CHLOW5ot3GL64bRN8nAai-yfs1cJNNKmqSZ6AIzm3I4EenWiM671Sw" target="_blank" rel="noopener noreferrer">đây</a></p>
+</li>
+</ul>
 <h3 id="front-end-framework" tabindex="-1"><a class="header-anchor" href="#front-end-framework" aria-hidden="true">#</a> Front-end Framework</h3>
 <img src="https://github.com/dangtranhuu/images/blob/main/news/front-end-framework.png?raw=true" title="" alt="06-00-18-00-html5.gif" width="800">
 <ul>

@@ -2,6 +2,28 @@
 
 # Bài 7 Viết commits chuyên nghiệp
 
+
+![](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/1.png?raw=true)
+
+:::details <b>Nội dung chính</b>
+
+![Nguyên lý](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/2.png?raw=true)
+![Thành phần](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/3.png?raw=true)
+![Tính chất lựa ](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/4.png?raw=true)
+![Ưu điểm](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/5.png?raw=true)
+![Nhược điểm](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/6.png?raw=true)
+![Bài tập](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/7.png?raw=true)
+![Bài giải](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/8.png?raw=true)
+![Lời cảm ơn](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/9.png?raw=true)
+
+![Ưu điểm](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/10.png?raw=true)
+![Nhược điểm](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/11.png?raw=true)
+![Bài tập](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/12.png?raw=true)
+![Bài giải](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/13.png?raw=true)
+![Lời cảm ơn](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/14.png?raw=true)
+:::
+
+
 ## Một câu chuyện tại công ty nọ
 
 Một anh chàng kỹ sư code 2 tháng trời để cho ra một tính năng cự kì **vip pro**, và rồi anh ta commit nó lên GitHub những mãi 1 tuần vẫn chưa được Leader Merge code. 

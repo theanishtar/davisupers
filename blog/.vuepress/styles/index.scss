@@ -98,3 +98,37 @@ code {
     font-size: 10px;
   }
 }
+
+
+.scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.scroll::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.scroll::-webkit-scrollbar:horizontal {
+  height: 7px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  // border: 2px solid white;
+  /* should match background, can't be transparent */
+  background-color: var(--inline-code-color);
+  // scrollbar-color: var(--c-brand) var(--c-border);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+#bodyContent {
+  height: 750px;
+  width: 1200px;
+  background-color: #f1f1f1;
+  padding: 24px;
+  margin-right: 24px;
+}

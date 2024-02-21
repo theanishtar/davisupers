@@ -5,7 +5,7 @@ subtitle: Lập trình hướng đối tượng với Java
 author: Theanishtar
 date: 2023-06-09
 useHeaderImage: false
-headerImage: /img/in-post/2020-10-07/header.jpg
+headerImage: /img/in-post/2020-10-07https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/1.png?raw=true
 headerMask: rgba(30, 69, 110, 0.61)
 permalinkPattern: /ebook/java/java-oop/:slug/
 tags:
@@ -16,6 +16,55 @@ Hướng đối tượng là phương pháp lập trình phổ biến nhất hi�
 <!-- more -->
 <h1 id="bai-5-tinh-truu-tuong" tabindex="-1"><a class="header-anchor" href="#bai-5-tinh-truu-tuong" aria-hidden="true">#</a> Bài 5. Tính trừu tượng</h1>
 <p>Lập trình hướng đối tượng gồm 4 tính chất chính: <a href="">Tính đóng gói</a>, <a href="">Tính đa hình</a>, <a href="">Tính kế thừa</a>, <a href="">Tính trừu tượng</a>.</p>
+<img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/1.png?raw=true" alt="Image 1" style="width:500px; height:50%;">
+<details class="custom-container details"><summary><b>Nội dung chính</b></summary>
+<br>
+<div class="scroll" style="width: 100%; overflow-x: auto; white-space: nowrap;">
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/1.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/2.png?raw=true" alt="Image 2" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/3.png?raw=true" alt="Image 3" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/4.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/5.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/6.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/7.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/8.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/9.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/10.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/11.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/12.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/13.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/14.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <!-- Add more slides as needed -->
+</div>
+</details>
 <h2 id="_1-abstract" tabindex="-1"><a class="header-anchor" href="#_1-abstract" aria-hidden="true">#</a> 1. Abstract</h2>
 <p><code v-pre>Data Abstact</code> (<em>trừu tượng dữ liệu</em>) có nghĩa là ẩn một số chi tiết nhất định và hiển thị những thứ cần thiết cho người dùng.</p>
 <blockquote>

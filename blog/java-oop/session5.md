@@ -5,7 +5,7 @@ subtitle: Lập trình hướng đối tượng với Java
 author: Theanishtar
 date: 2023-06-09
 useHeaderImage: false
-headerImage: /img/in-post/2020-10-07/header.jpg
+headerImage: /img/in-post/2020-10-07https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/1.png?raw=true
 headerMask: rgba(30, 69, 110, 0.61)
 permalinkPattern: /ebook/java/java-oop/:slug/
 tags:
@@ -18,6 +18,60 @@ Hướng đối tượng là phương pháp lập trình phổ biến nhất hi�
 # Bài 5. Tính trừu tượng
 
 Lập trình hướng đối tượng gồm 4 tính chất chính: [Tính đóng gói](), [Tính đa hình](), [Tính kế thừa](), [Tính trừu tượng]().
+
+<img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/1.png?raw=true" alt="Image 1" style="width:500px; height:50%;">
+
+:::details <b>Nội dung chính</b>
+
+<br>
+
+<div class="scroll" style="width: 100%; overflow-x: auto; white-space: nowrap;">
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/1.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/2.png?raw=true" alt="Image 2" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/3.png?raw=true" alt="Image 3" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/4.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/5.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/6.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/7.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/8.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/9.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/10.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/11.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/12.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/13.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session5/abstraction-javaoop/14.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <!-- Add more slides as needed -->
+</div>
+::: 
+
 
 ## 1. Abstract
 

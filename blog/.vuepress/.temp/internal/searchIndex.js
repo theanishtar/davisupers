@@ -108,6 +108,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "DOCKER",
+    "headers": [],
+    "path": "/docker/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Docker",
+    "headers": [],
+    "path": "/docker/section1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Lời nói đầu",
     "headers": [],
     "path": "/dsa/",
@@ -481,300 +495,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Bài 8",
+    "title": "Bài 8 Đóng góp mã nguồn mở",
     "headers": [],
     "path": "/github/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. Tìm hiểu về Collections trong Java",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Khái niệm về Collections trong Java",
-        "slug": "khai-niem-ve-collections-trong-java",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cài đặt trong Collections",
-        "slug": "cai-đat-trong-collections",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phần interface trong collections",
-        "slug": "phan-interface-trong-collections",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phần thuật toán trong collections",
-        "slug": "phan-thuat-toan-trong-collections",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Collection trong Java",
-        "slug": "collection-trong-java",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán trong Collections",
-        "slug": "thuat-toan-trong-collections",
-        "children": []
-      }
-    ],
-    "path": "/java-collections/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. List",
-    "headers": [],
-    "path": "/java-collections/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "11. HashMap",
-    "headers": [],
-    "path": "/java-collections/session10.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "12. LinkedHashMap",
-    "headers": [],
-    "path": "/java-collections/session11.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "13. TreeMap",
-    "headers": [],
-    "path": "/java-collections/session12.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "14. HashTable",
-    "headers": [],
-    "path": "/java-collections/session13.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "15. Enum",
-    "headers": [],
-    "path": "/java-collections/session14.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "16. EnumMap",
-    "headers": [],
-    "path": "/java-collections/session15.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "17. EnumSet",
-    "headers": [],
-    "path": "/java-collections/session16.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "18. Sorted",
-    "headers": [],
-    "path": "/java-collections/session17.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Những câu hỏi phỏng vấn Java OOP phổ biến nhất",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Thế nào là lập trình hướng đối tượng ?",
-        "slug": "the-nao-la-lap-trinh-huong-đoi-tuong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Các tính chất của hướng đối tượng là gì ?",
-        "slug": "cac-tinh-chat-cua-huong-đoi-tuong-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là lớp?",
-        "slug": "the-nao-la-lop",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là đối tượng?",
-        "slug": "the-nao-la-đoi-tuong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính đóng gói?",
-        "slug": "the-nao-la-tinh-đong-goi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có mấy loại access modifier? Phân biệt sự khác nhau giữa chúng?",
-        "slug": "co-may-loai-access-modifier-phan-biet-su-khac-nhau-giua-chung",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính đa hình?",
-        "slug": "the-nao-la-tinh-đa-hinh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phân biệt override và overload?",
-        "slug": "phan-biet-override-va-overload",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể override 1 static method không?",
-        "slug": "co-the-override-1-static-method-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính trừu tượng?",
-        "slug": "the-nao-la-tinh-truu-tuong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể sử dụng thuộc tính trong interface?",
-        "slug": "co-the-su-dung-thuoc-tinh-trong-interface",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Interface có thể là final không?",
-        "slug": "interface-co-the-la-final-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể cài đặt phương thức trong interface?",
-        "slug": "co-the-cai-đat-phuong-thuc-trong-interface",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể cài đặt phương thức trong abstract class?",
-        "slug": "co-the-cai-đat-phuong-thuc-trong-abstract-class",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể cài đặt nhiều interface trong class không?",
-        "slug": "co-the-cai-đat-nhieu-interface-trong-class-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là tính kế thừa?",
-        "slug": "the-nao-la-tinh-ke-thua",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có thể sử dụng constructor của lớp cha để tạo đối tượng cho lớp con không?",
-        "slug": "co-the-su-dung-constructor-cua-lop-cha-đe-tao-đoi-tuong-cho-lop-con-khong",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là static?",
-        "slug": "the-nao-la-static",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thế nào là final?",
-        "slug": "the-nao-la-final",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Có bắt buộc phải khai báo constructor trong lớp?",
-        "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
-        "children": []
-      }
-    ],
-    "path": "/java-collections/session18.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "3. ArrayList",
-    "headers": [],
-    "path": "/java-collections/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "LinkedList",
-    "headers": [],
-    "path": "/java-collections/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5. So sánh ArrayList và LinkedList",
-    "headers": [],
-    "path": "/java-collections/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6. Set",
-    "headers": [],
-    "path": "/java-collections/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7. HashSet",
-    "headers": [],
-    "path": "/java-collections/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8. LinkedHashSet",
-    "headers": [],
-    "path": "/java-collections/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "9. TreeSet",
-    "headers": [],
-    "path": "/java-collections/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10. Map",
-    "headers": [],
-    "path": "/java-collections/session9.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1466,6 +1189,745 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1. Tìm hiểu về Collections trong Java",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Khái niệm về Collections trong Java",
+        "slug": "khai-niem-ve-collections-trong-java",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cài đặt trong Collections",
+        "slug": "cai-đat-trong-collections",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phần interface trong collections",
+        "slug": "phan-interface-trong-collections",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phần thuật toán trong collections",
+        "slug": "phan-thuat-toan-trong-collections",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Collection trong Java",
+        "slug": "collection-trong-java",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán trong Collections",
+        "slug": "thuat-toan-trong-collections",
+        "children": []
+      }
+    ],
+    "path": "/java-collections/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. List",
+    "headers": [],
+    "path": "/java-collections/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "11. HashMap",
+    "headers": [],
+    "path": "/java-collections/session10.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "12. LinkedHashMap",
+    "headers": [],
+    "path": "/java-collections/session11.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "13. TreeMap",
+    "headers": [],
+    "path": "/java-collections/session12.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "14. HashTable",
+    "headers": [],
+    "path": "/java-collections/session13.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "15. Enum",
+    "headers": [],
+    "path": "/java-collections/session14.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "16. EnumMap",
+    "headers": [],
+    "path": "/java-collections/session15.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "17. EnumSet",
+    "headers": [],
+    "path": "/java-collections/session16.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "18. Sorted",
+    "headers": [],
+    "path": "/java-collections/session17.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Những câu hỏi phỏng vấn Java OOP phổ biến nhất",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Thế nào là lập trình hướng đối tượng ?",
+        "slug": "the-nao-la-lap-trinh-huong-đoi-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Các tính chất của hướng đối tượng là gì ?",
+        "slug": "cac-tinh-chat-cua-huong-đoi-tuong-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là lớp?",
+        "slug": "the-nao-la-lop",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là đối tượng?",
+        "slug": "the-nao-la-đoi-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính đóng gói?",
+        "slug": "the-nao-la-tinh-đong-goi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có mấy loại access modifier? Phân biệt sự khác nhau giữa chúng?",
+        "slug": "co-may-loai-access-modifier-phan-biet-su-khac-nhau-giua-chung",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính đa hình?",
+        "slug": "the-nao-la-tinh-đa-hinh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phân biệt override và overload?",
+        "slug": "phan-biet-override-va-overload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể override 1 static method không?",
+        "slug": "co-the-override-1-static-method-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính trừu tượng?",
+        "slug": "the-nao-la-tinh-truu-tuong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể sử dụng thuộc tính trong interface?",
+        "slug": "co-the-su-dung-thuoc-tinh-trong-interface",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Interface có thể là final không?",
+        "slug": "interface-co-the-la-final-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt phương thức trong interface?",
+        "slug": "co-the-cai-đat-phuong-thuc-trong-interface",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt phương thức trong abstract class?",
+        "slug": "co-the-cai-đat-phuong-thuc-trong-abstract-class",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể cài đặt nhiều interface trong class không?",
+        "slug": "co-the-cai-đat-nhieu-interface-trong-class-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là tính kế thừa?",
+        "slug": "the-nao-la-tinh-ke-thua",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có thể sử dụng constructor của lớp cha để tạo đối tượng cho lớp con không?",
+        "slug": "co-the-su-dung-constructor-cua-lop-cha-đe-tao-đoi-tuong-cho-lop-con-khong",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là static?",
+        "slug": "the-nao-la-static",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thế nào là final?",
+        "slug": "the-nao-la-final",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Có bắt buộc phải khai báo constructor trong lớp?",
+        "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
+        "children": []
+      }
+    ],
+    "path": "/java-collections/session18.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3. ArrayList",
+    "headers": [],
+    "path": "/java-collections/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "LinkedList",
+    "headers": [],
+    "path": "/java-collections/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5. So sánh ArrayList và LinkedList",
+    "headers": [],
+    "path": "/java-collections/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6. Set",
+    "headers": [],
+    "path": "/java-collections/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7. HashSet",
+    "headers": [],
+    "path": "/java-collections/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8. LinkedHashSet",
+    "headers": [],
+    "path": "/java-collections/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "9. TreeSet",
+    "headers": [],
+    "path": "/java-collections/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10. Map",
+    "headers": [],
+    "path": "/java-collections/session9.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/nodejs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Tìm hiểu về NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "NodeJS là gì",
+        "slug": "nodejs-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mô hình hoạt động của NodeJS",
+        "slug": "mo-hinh-hoat-đong-cua-nodejs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Download và cài đặt NodeJS",
+        "slug": "download-va-cai-đat-nodejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Download NodeJS",
+            "slug": "_1-download-nodejs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Cài đặt NodeJS",
+            "slug": "_2-cai-đat-nodejs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Kiểm tra và cấu hình",
+            "slug": "_3-kiem-tra-va-cau-hinh",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Test họat động của NodeJS",
+            "slug": "_4-test-hoat-đong-cua-nodejs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Module trong NodeJS",
+        "slug": "module-trong-nodejs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo project",
+        "slug": "tao-project",
+        "children": [
+          {
+            "level": 4,
+            "title": "Cài đặt express",
+            "slug": "cai-đat-express",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Tạo file server.js sử dụng module express",
+            "slug": "tao-file-server-js-su-dung-module-express",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Chạy server.js",
+            "slug": "chay-server-js",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/nodejs/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Tìm hiểu về Ejs",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Cài đặt EJS",
+        "slug": "cai-đat-ejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sử dụng lệnh if",
+            "slug": "su-dung-lenh-if",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Vòng lặp for trong ejs view",
+            "slug": "vong-lap-for-trong-ejs-view",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sử dụng CSS trong view ejs",
+            "slug": "su-dung-css-trong-view-ejs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Nhận tham số dạng từ url",
+        "slug": "nhan-tham-so-dang-tu-url",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Sử dụng form",
+        "slug": "su-dung-form",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Upload hình trong form",
+        "slug": "upload-hinh-trong-form",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xoá ảnh",
+        "slug": "xoa-anh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Làm việc với MySql",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Lập trình MVC",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. Giới thiệu Restful API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Các quy định http method trong restful",
+        "slug": "cac-quy-đinh-http-method-trong-restful",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
+        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hiện restful api trong nodejs",
+        "slug": "thuc-hien-restful-api-trong-nodejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "Chuẩn bị database",
+            "slug": "chuan-bi-database",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cài module express và express-generator",
+            "slug": "cai-module-express-va-express-generator",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo project để thực tập",
+            "slug": "tao-project-đe-thuc-tap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo model kết nối db",
+            "slug": "tao-model-ket-noi-db",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo route",
+            "slug": "tao-route",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng danh sách record",
+            "slug": "thuc-hien-chuc-nang-danh-sach-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện lấy chi tiết record",
+            "slug": "thuc-hien-lay-chi-tiet-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng thêm record",
+            "slug": "thuc-hien-chuc-nang-them-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng cập nhật record",
+            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng xóa record",
+            "slug": "thuc-hien-chuc-nang-xoa-record",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/nodejs/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Xây dựng Restful API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Chuẩn bị để sử dụng restful api",
+        "slug": "chuan-bi-đe-su-dung-restful-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Tạo database và table",
+            "slug": "_1-tao-database-va-table",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Cài module express và express-generator",
+            "slug": "_2-cai-module-express-va-express-generator",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Tạo project để thực tập",
+            "slug": "_3-tao-project-đe-thuc-tap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Tạo model kết nối db",
+            "slug": "_4-tao-model-ket-noi-db",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. Tạo controller",
+            "slug": "_5-tao-controller",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Dùng hàm fetch() để gọi API",
+        "slug": "dung-ham-fetch-đe-goi-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo request với method get",
+            "slug": "tao-request-voi-method-get",
+            "children": [
+              {
+                "level": 4,
+                "title": "Ví dụ 1: Gọi hàm API",
+                "slug": "vi-du-1-goi-ham-api",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Đọc dữ liệu từ 1 object json",
+            "slug": "đoc-du-lieu-tu-1-object-json",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Gọi API với method POST",
+            "slug": "goi-api-voi-method-post",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Sử dụng thư viện Axios",
+        "slug": "su-dung-thu-vien-axios",
+        "children": [
+          {
+            "level": 3,
+            "title": "Cài đặt axios",
+            "slug": "cai-đat-axios",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Ví dụ sử dụng axios",
+        "slug": "vi-du-su-dung-axios",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7. Xác thực và xác nhận người dùng",
+    "headers": [],
+    "path": "/nodejs/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8. Làm việc với MongoDB",
+    "headers": [],
+    "path": "/nodejs/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/php-core/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Giới thiệu về PHP",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tìm hiểu về Request và Response",
+        "slug": "tim-hieu-ve-request-va-response",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Sử dụng các kiểu dữ liệu",
+    "headers": [],
+    "path": "/php-core/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Hàm và HTML",
+    "headers": [],
+    "path": "/php-core/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Forms",
+    "headers": [],
+    "path": "/php-core/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. File",
+    "headers": [],
+    "path": "/php-core/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. MySQLi căn bản",
+    "headers": [],
+    "path": "/php-core/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7. MySQLi nâng cao",
+    "headers": [],
+    "path": "/php-core/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8. Session, Cookie và PDO",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Đề bài",
+        "slug": "_1-đe-bai",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Lời nói đầu",
     "headers": [],
     "path": "/java-oop/",
@@ -1979,454 +2441,6 @@ export const searchIndex = [
       }
     ],
     "path": "/java-oop/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/nodejs/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Tìm hiểu về NodeJS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "NodeJS là gì",
-        "slug": "nodejs-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mô hình hoạt động của NodeJS",
-        "slug": "mo-hinh-hoat-đong-cua-nodejs",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Download và cài đặt NodeJS",
-        "slug": "download-va-cai-đat-nodejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Download NodeJS",
-            "slug": "_1-download-nodejs",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Cài đặt NodeJS",
-            "slug": "_2-cai-đat-nodejs",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Kiểm tra và cấu hình",
-            "slug": "_3-kiem-tra-va-cau-hinh",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Test họat động của NodeJS",
-            "slug": "_4-test-hoat-đong-cua-nodejs",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Module trong NodeJS",
-        "slug": "module-trong-nodejs",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo project",
-        "slug": "tao-project",
-        "children": [
-          {
-            "level": 4,
-            "title": "Cài đặt express",
-            "slug": "cai-đat-express",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Tạo file server.js sử dụng module express",
-            "slug": "tao-file-server-js-su-dung-module-express",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Chạy server.js",
-            "slug": "chay-server-js",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/nodejs/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Tìm hiểu về Ejs",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Cài đặt EJS",
-        "slug": "cai-đat-ejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sử dụng lệnh if",
-            "slug": "su-dung-lenh-if",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Vòng lặp for trong ejs view",
-            "slug": "vong-lap-for-trong-ejs-view",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sử dụng CSS trong view ejs",
-            "slug": "su-dung-css-trong-view-ejs",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Nhận tham số dạng từ url",
-        "slug": "nhan-tham-so-dang-tu-url",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Sử dụng form",
-        "slug": "su-dung-form",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Upload hình trong form",
-        "slug": "upload-hinh-trong-form",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xoá ảnh",
-        "slug": "xoa-anh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3. Làm việc với MySql",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4. Lập trình MVC",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. Giới thiệu Restful API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Các quy định http method trong restful",
-        "slug": "cac-quy-đinh-http-method-trong-restful",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
-        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thực hiện restful api trong nodejs",
-        "slug": "thuc-hien-restful-api-trong-nodejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "Chuẩn bị database",
-            "slug": "chuan-bi-database",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cài module express và express-generator",
-            "slug": "cai-module-express-va-express-generator",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo project để thực tập",
-            "slug": "tao-project-đe-thuc-tap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo model kết nối db",
-            "slug": "tao-model-ket-noi-db",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo route",
-            "slug": "tao-route",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng danh sách record",
-            "slug": "thuc-hien-chuc-nang-danh-sach-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện lấy chi tiết record",
-            "slug": "thuc-hien-lay-chi-tiet-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng thêm record",
-            "slug": "thuc-hien-chuc-nang-them-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng cập nhật record",
-            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng xóa record",
-            "slug": "thuc-hien-chuc-nang-xoa-record",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/nodejs/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Xây dựng Restful API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Chuẩn bị để sử dụng restful api",
-        "slug": "chuan-bi-đe-su-dung-restful-api",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Tạo database và table",
-            "slug": "_1-tao-database-va-table",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Cài module express và express-generator",
-            "slug": "_2-cai-module-express-va-express-generator",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Tạo project để thực tập",
-            "slug": "_3-tao-project-đe-thuc-tap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Tạo model kết nối db",
-            "slug": "_4-tao-model-ket-noi-db",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. Tạo controller",
-            "slug": "_5-tao-controller",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Dùng hàm fetch() để gọi API",
-        "slug": "dung-ham-fetch-đe-goi-api",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo request với method get",
-            "slug": "tao-request-voi-method-get",
-            "children": [
-              {
-                "level": 4,
-                "title": "Ví dụ 1: Gọi hàm API",
-                "slug": "vi-du-1-goi-ham-api",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Đọc dữ liệu từ 1 object json",
-            "slug": "đoc-du-lieu-tu-1-object-json",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Gọi API với method POST",
-            "slug": "goi-api-voi-method-post",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Sử dụng thư viện Axios",
-        "slug": "su-dung-thu-vien-axios",
-        "children": [
-          {
-            "level": 3,
-            "title": "Cài đặt axios",
-            "slug": "cai-đat-axios",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Ví dụ sử dụng axios",
-        "slug": "vi-du-su-dung-axios",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7. Xác thực và xác nhận người dùng",
-    "headers": [],
-    "path": "/nodejs/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8. Làm việc với MongoDB",
-    "headers": [],
-    "path": "/nodejs/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/php-core/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Giới thiệu về PHP",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Tìm hiểu về Request và Response",
-        "slug": "tim-hieu-ve-request-va-response",
-        "children": []
-      }
-    ],
-    "path": "/php-core/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Sử dụng các kiểu dữ liệu",
-    "headers": [],
-    "path": "/php-core/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3. Hàm và HTML",
-    "headers": [],
-    "path": "/php-core/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4. Forms",
-    "headers": [],
-    "path": "/php-core/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. File",
-    "headers": [],
-    "path": "/php-core/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. MySQLi căn bản",
-    "headers": [],
-    "path": "/php-core/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7. MySQLi nâng cao",
-    "headers": [],
-    "path": "/php-core/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8. Session, Cookie và PDO",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Đề bài",
-        "slug": "_1-đe-bai",
-        "children": []
-      }
-    ],
-    "path": "/php-core/session8.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2956,292 +2970,6 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
-    "title": "Các Câu Hỏi Phỏng Vấn Java Thường Gặp P.1",
-    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
-    "headers": [
-      {
-        "level": 2,
-        "title": "I. Các câu hỏi Java core",
-        "slug": "i-cac-cau-hoi-java-core",
-        "children": [
-          {
-            "level": 3,
-            "title": "JDK, JRE và JVM là gì?",
-            "slug": "jdk-jre-va-jvm-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Đặc điểm nổi bật của Java 8",
-            "slug": "đac-điem-noi-bat-cua-java-8",
-            "children": [
-              {
-                "level": 4,
-                "title": "1. Lambda Expression",
-                "slug": "_1-lambda-expression",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "2. Default method in Interface",
-                "slug": "_2-default-method-in-interface",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "3. Optional Class",
-                "slug": "_3-optional-class",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "4. Java Stream API",
-                "slug": "_4-java-stream-api",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "5. Functional Interface",
-                "slug": "_5-functional-interface",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "6. Java Date Time API",
-                "slug": "_6-java-date-time-api",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Giải thích phương thức main() trong chương trình Java",
-            "slug": "giai-thich-phuong-thuc-main-trong-chuong-trinh-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao không sử dụng con trỏ trong Java?",
-            "slug": "tai-sao-khong-su-dung-con-tro-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao Java lại độc lập nền tảng?",
-            "slug": "tai-sao-java-lai-đoc-lap-nen-tang",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Package trong Java là gì? Liệt kê những ưu điểm của các package",
-            "slug": "package-trong-java-la-gi-liet-ke-nhung-uu-điem-cua-cac-package",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Khác biệt giữa bộ nhớ Stack và Heap",
-            "slug": "khac-biet-giua-bo-nho-stack-va-heap",
-            "children": [
-              {
-                "level": 4,
-                "title": "Về kích thước vùng nhớ",
-                "slug": "ve-kich-thuoc-vung-nho",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Về đặc điểm vùng nhớ",
-                "slug": "ve-đac-điem-vung-nho",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Lỗi xảy ra với vùng nhớ",
-                "slug": "loi-xay-ra-voi-vung-nho",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Hãy nêu sự khác biệt giữa biến local và biến instance",
-            "slug": "hay-neu-su-khac-biet-giua-bien-local-va-bien-instance",
-            "children": [
-              {
-                "level": 4,
-                "title": "Biến local",
-                "slug": "bien-local",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Biến instance",
-                "slug": "bien-instance",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Từ khóa final trong Java là gì?",
-            "slug": "tu-khoa-final-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Từ khóa static trong Java là gì?",
-            "slug": "tu-khoa-static-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Từ khóa super trong Java",
-            "slug": "tu-khoa-super-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Mô tả sự khác biệt giữa String, StringBuilder và StringBuffer",
-            "slug": "mo-ta-su-khac-biet-giua-string-stringbuilder-va-stringbuffer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Constructors trong Java là gì?",
-            "slug": "constructors-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Các lớp wrapper trong Java là gì?",
-            "slug": "cac-lop-wrapper-trong-java-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Có bắt buộc phải khai báo constructor trong lớp?",
-            "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Các loại phạm vi truy cập trong Java",
-            "slug": "cac-loai-pham-vi-truy-cap-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Trình biên dịch JIT trong Java",
-            "slug": "trinh-bien-dich-jit-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Mô tả khác biệt giữa constructor và phương thức trong Java",
-            "slug": "mo-ta-khac-biet-giua-constructor-va-phuong-thuc-trong-java",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sự khác biệt giữa từ khóa break và continue",
-            "slug": "su-khac-biet-giua-tu-khoa-break-va-continue",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Liên kết",
-        "slug": "lien-ket",
-        "children": []
-      }
-    ],
-    "path": "/post/interview/java-core-interview/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "Tìm hiểu về RestAPI và Restful API",
-    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Khái niệm",
-        "slug": "khai-niem",
-        "children": [
-          {
-            "level": 3,
-            "title": "RestAPI",
-            "slug": "restapi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Restful API",
-            "slug": "restful-api",
-            "children": [
-              {
-                "level": 4,
-                "title": "API",
-                "slug": "api",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "REST",
-                "slug": "rest",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Ví dụ thực tế",
-        "slug": "vi-du-thuc-te",
-        "children": [
-          {
-            "level": 4,
-            "title": "Non-Restful",
-            "slug": "non-restful",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Restful",
-            "slug": "restful",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Bonus",
-            "slug": "bonus",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Những câu hỏi phỏng vấn",
-        "slug": "nhung-cau-hoi-phong-van",
-        "children": [
-          {
-            "level": 4,
-            "title": "Phân biệt PUT và PATCH",
-            "slug": "phan-biet-put-va-patch",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/post/interview/restful-api/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
     "title": "Xây dựng Json Web Token trong NodeJS",
     "subtitle": "Phân quyền và đăng nhập trong NodeJS",
     "headers": [
@@ -3728,6 +3456,292 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Các Câu Hỏi Phỏng Vấn Java Thường Gặp P.1",
+    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
+    "headers": [
+      {
+        "level": 2,
+        "title": "I. Các câu hỏi Java core",
+        "slug": "i-cac-cau-hoi-java-core",
+        "children": [
+          {
+            "level": 3,
+            "title": "JDK, JRE và JVM là gì?",
+            "slug": "jdk-jre-va-jvm-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Đặc điểm nổi bật của Java 8",
+            "slug": "đac-điem-noi-bat-cua-java-8",
+            "children": [
+              {
+                "level": 4,
+                "title": "1. Lambda Expression",
+                "slug": "_1-lambda-expression",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "2. Default method in Interface",
+                "slug": "_2-default-method-in-interface",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "3. Optional Class",
+                "slug": "_3-optional-class",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "4. Java Stream API",
+                "slug": "_4-java-stream-api",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "5. Functional Interface",
+                "slug": "_5-functional-interface",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "6. Java Date Time API",
+                "slug": "_6-java-date-time-api",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Giải thích phương thức main() trong chương trình Java",
+            "slug": "giai-thich-phuong-thuc-main-trong-chuong-trinh-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao không sử dụng con trỏ trong Java?",
+            "slug": "tai-sao-khong-su-dung-con-tro-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao Java lại độc lập nền tảng?",
+            "slug": "tai-sao-java-lai-đoc-lap-nen-tang",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Package trong Java là gì? Liệt kê những ưu điểm của các package",
+            "slug": "package-trong-java-la-gi-liet-ke-nhung-uu-điem-cua-cac-package",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Khác biệt giữa bộ nhớ Stack và Heap",
+            "slug": "khac-biet-giua-bo-nho-stack-va-heap",
+            "children": [
+              {
+                "level": 4,
+                "title": "Về kích thước vùng nhớ",
+                "slug": "ve-kich-thuoc-vung-nho",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Về đặc điểm vùng nhớ",
+                "slug": "ve-đac-điem-vung-nho",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Lỗi xảy ra với vùng nhớ",
+                "slug": "loi-xay-ra-voi-vung-nho",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Hãy nêu sự khác biệt giữa biến local và biến instance",
+            "slug": "hay-neu-su-khac-biet-giua-bien-local-va-bien-instance",
+            "children": [
+              {
+                "level": 4,
+                "title": "Biến local",
+                "slug": "bien-local",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Biến instance",
+                "slug": "bien-instance",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa final trong Java là gì?",
+            "slug": "tu-khoa-final-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa static trong Java là gì?",
+            "slug": "tu-khoa-static-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa super trong Java",
+            "slug": "tu-khoa-super-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mô tả sự khác biệt giữa String, StringBuilder và StringBuffer",
+            "slug": "mo-ta-su-khac-biet-giua-string-stringbuilder-va-stringbuffer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Constructors trong Java là gì?",
+            "slug": "constructors-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các lớp wrapper trong Java là gì?",
+            "slug": "cac-lop-wrapper-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Có bắt buộc phải khai báo constructor trong lớp?",
+            "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các loại phạm vi truy cập trong Java",
+            "slug": "cac-loai-pham-vi-truy-cap-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Trình biên dịch JIT trong Java",
+            "slug": "trinh-bien-dich-jit-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mô tả khác biệt giữa constructor và phương thức trong Java",
+            "slug": "mo-ta-khac-biet-giua-constructor-va-phuong-thuc-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sự khác biệt giữa từ khóa break và continue",
+            "slug": "su-khac-biet-giua-tu-khoa-break-va-continue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Liên kết",
+        "slug": "lien-ket",
+        "children": []
+      }
+    ],
+    "path": "/post/interview/java-core-interview/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Tìm hiểu về RestAPI và Restful API",
+    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Khái niệm",
+        "slug": "khai-niem",
+        "children": [
+          {
+            "level": 3,
+            "title": "RestAPI",
+            "slug": "restapi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Restful API",
+            "slug": "restful-api",
+            "children": [
+              {
+                "level": 4,
+                "title": "API",
+                "slug": "api",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "REST",
+                "slug": "rest",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Ví dụ thực tế",
+        "slug": "vi-du-thuc-te",
+        "children": [
+          {
+            "level": 4,
+            "title": "Non-Restful",
+            "slug": "non-restful",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Restful",
+            "slug": "restful",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Bonus",
+            "slug": "bonus",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Những câu hỏi phỏng vấn",
+        "slug": "nhung-cau-hoi-phong-van",
+        "children": [
+          {
+            "level": 4,
+            "title": "Phân biệt PUT và PATCH",
+            "slug": "phan-biet-put-va-patch",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/post/interview/restful-api/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -3784,47 +3798,7 @@ export const searchIndex = [
     "layout": "Tags"
   },
   {
-    "title": "interview | Tags",
-    "headers": [],
-    "path": "/tags/interview/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Java | Tags",
-    "headers": [],
-    "path": "/tags/java/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Fresher | Tags",
-    "headers": [],
-    "path": "/tags/fresher/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Web | Tags",
-    "headers": [],
-    "path": "/tags/web/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Junior | Tags",
-    "headers": [],
-    "path": "/tags/junior/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "BackEnd | Tags",
+    "title": "Backend | Tags",
     "headers": [],
     "path": "/tags/backend/",
     "pathLocale": "/",
@@ -3872,6 +3846,46 @@ export const searchIndex = [
     "layout": "Tags"
   },
   {
+    "title": "interview | Tags",
+    "headers": [],
+    "path": "/tags/interview/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Java | Tags",
+    "headers": [],
+    "path": "/tags/java/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Fresher | Tags",
+    "headers": [],
+    "path": "/tags/fresher/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Web | Tags",
+    "headers": [],
+    "path": "/tags/web/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Junior | Tags",
+    "headers": [],
+    "path": "/tags/junior/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
     "title": "Tags",
     "headers": [],
     "path": "/en/tags/",
@@ -3888,3 +3902,16 @@ export const searchIndex = [
     "layout": "HomePage"
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

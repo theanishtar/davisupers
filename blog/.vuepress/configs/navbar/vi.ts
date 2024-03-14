@@ -170,6 +170,11 @@ export const vi: NavbarConfig = [
         link: "/github/",
         icon: "vi-file-type-git"
       },
+      {
+        text: "Triển khai mã nguồn với Docker",
+        link: "/docker/",
+        icon: "vi-file-type-docker2"
+      },
     ]
   },
   {

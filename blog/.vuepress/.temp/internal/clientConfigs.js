@@ -6,10 +6,8 @@ import clientConfig4 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/@re
 import clientConfig5 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/@renovamen+vuepress-plugin-katex@2.0.0-alpha.26/node_modules/@renovamen/vuepress-plugin-katex/lib/client/config.js'
 import clientConfig6 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/vuepress-plugin-code-enhance@2.0.0-alpha.26/node_modules/vuepress-plugin-code-enhance/lib/client/config.js'
 import clientConfig7 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/vuepress-plugin-giscus@2.0.0-alpha.26/node_modules/vuepress-plugin-giscus/lib/client/config.js'
-import clientConfig8 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/@vuepress+plugin-google-analytics@2.0.0-beta.49/node_modules/@vuepress/plugin-google-analytics/lib/client/config.js'
-import clientConfig9 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/@renovamen+vuepress-plugin-baidu-tongji@2.0.0-alpha.26/node_modules/@renovamen/vuepress-plugin-baidu-tongji/lib/client/config.js'
-import clientConfig10 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/vuepress-theme-gungnir@2.0.0-alpha.26_sass-loader@13.0.2/node_modules/vuepress-theme-gungnir/lib/client/config.js'
-import clientConfig11 from 'E:/FPT/.github/frog/davisupers/blog/.vuepress/client.ts'
+import clientConfig8 from 'E:/FPT/.github/frog/davisupers/node_modules/.pnpm/vuepress-theme-gungnir@2.0.0-alpha.26_sass-loader@13.0.2/node_modules/vuepress-theme-gungnir/lib/client/config.js'
+import clientConfig9 from 'E:/FPT/.github/frog/davisupers/blog/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -22,6 +20,4 @@ export const clientConfigs = [
   clientConfig7,
   clientConfig8,
   clientConfig9,
-  clientConfig10,
-  clientConfig11,
 ]

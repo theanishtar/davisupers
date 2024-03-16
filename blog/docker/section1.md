@@ -51,41 +51,57 @@
 *   **docker ps:** Dùng để liệt kê ra các container đang chạy. Khi sử dụng với các tham số 
 
 \-a/-all: Liệt kê tất cả các container, kể cả đang chạy hay đã kể thúc -q/-quiet: chỉ liệt kê ra id của các container. 
-
+```bash
+$ docker ps
+```
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-7.png)
 
    
 
 *   **docker pull:** Docker Hub chứa rất nhiều các image được dựng sẵn, mà ta có thể pull về và dùng mà không cần phải định nghĩa và cấu hình lại từ đầu.
 
-
+```bash
+$ docker pull
+```
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-4.png)
 
  
 
 *   **docker images:** sử dụng lệnh để xem danh sách tất cả các image trên hệ thống của mình
-
+```bash
+$ docker images
+```
 
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-16.png)
 
 *   **docker run:** Lệnh này dùng để chạy một container dựa trên một image mà ta có sẵn. Ta có thể thêm vào sau lệnh này một vài câu lệnh khác như -it bash để chạy bash từ container này.
-
+```bash
+$ docker run
+```
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-1.png)
 
 *   **docker ps**: hiển thị cho bạn tất cả các vùng chứa hiện đang chạy.
-
+```bash
+$ docker ps -a
+```
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-6.png)
 
 *   **docker stop:** Lệnh này dùng để stop một hoặc nhiều container. Ngoài ra ta có thể dung docker kill để bắt buộc container dừng lại.
-
+```bash
+$ docker stop
+```
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-10.png)
 
 *   **docker build:** Lệnh này dùng để build một image từ Dockerfile và context. Context ở đây là một tập file được xác đinh bởi đường dẫn hoặc url cụ thể. Ta có thể sử dụng thêm tham số -t để gắn nhãn cho image.
-
+```bash
+$ docker build
+```
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-2.png)
 
 *   **docker rm:** Lệnh này dùng để xóa một hoặc nhiều container.
-
+```bash
+$ docker rm
+```
 ![](https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-14.png)
 
  

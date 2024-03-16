@@ -51,37 +51,45 @@
 <li><strong>docker ps:</strong> Dùng để liệt kê ra các container đang chạy. Khi sử dụng với các tham số</li>
 </ul>
 <p>-a/-all: Liệt kê tất cả các container, kể cả đang chạy hay đã kể thúc -q/-quiet: chỉ liệt kê ra id của các container.</p>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-7.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> <span class="token function">ps</span>
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-7.png" alt=""></p>
 <p></p>
 <ul>
 <li><strong>docker pull:</strong> Docker Hub chứa rất nhiều các image được dựng sẵn, mà ta có thể pull về và dùng mà không cần phải định nghĩa và cấu hình lại từ đầu.</li>
 </ul>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-4.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> pull
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-4.png" alt=""></p>
 <p></p>
 <ul>
 <li><strong>docker images:</strong> sử dụng lệnh để xem danh sách tất cả các image trên hệ thống của mình</li>
 </ul>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-16.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> images
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-16.png" alt=""></p>
 <ul>
 <li><strong>docker run:</strong> Lệnh này dùng để chạy một container dựa trên một image mà ta có sẵn. Ta có thể thêm vào sau lệnh này một vài câu lệnh khác như -it bash để chạy bash từ container này.</li>
 </ul>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-1.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> run
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-1.png" alt=""></p>
 <ul>
 <li><strong>docker ps</strong>: hiển thị cho bạn tất cả các vùng chứa hiện đang chạy.</li>
 </ul>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-6.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> <span class="token function">ps</span> -a
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-6.png" alt=""></p>
 <ul>
 <li><strong>docker stop:</strong> Lệnh này dùng để stop một hoặc nhiều container. Ngoài ra ta có thể dung docker kill để bắt buộc container dừng lại.</li>
 </ul>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-10.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> stop
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-10.png" alt=""></p>
 <ul>
 <li><strong>docker build:</strong> Lệnh này dùng để build một image từ Dockerfile và context. Context ở đây là một tập file được xác đinh bởi đường dẫn hoặc url cụ thể. Ta có thể sử dụng thêm tham số -t để gắn nhãn cho image.</li>
 </ul>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-2.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> build
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-2.png" alt=""></p>
 <ul>
 <li><strong>docker rm:</strong> Lệnh này dùng để xóa một hoặc nhiều container.</li>
 </ul>
-<p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-14.png" alt=""></p>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">docker</span> <span class="token function">rm</span>
+</code></pre></div><p><img src="https://caodang.fpt.edu.vn/wp-content/uploads/2024/03/FPT-Polytechnic-HN-docker-14.png" alt=""></p>
 <p></p>
 <h3 id="dockerfile" tabindex="-1"><a class="header-anchor" href="#dockerfile" aria-hidden="true">#</a> Dockerfile</h3>
 <ul>

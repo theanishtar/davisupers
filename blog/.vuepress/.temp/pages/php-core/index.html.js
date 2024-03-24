@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-f1eb35fc\",\"path\":\"/php-core/\",\"title\":\"Lời nói đầu\",\"lang\":\"vi-VN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":1703866257000},\"readingTime\":{\"minutes\":4,\"words\":568},\"filePathRelative\":\"php-core/readme.md\"}")

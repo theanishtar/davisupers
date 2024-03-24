@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-74ae7fc6\",\"path\":\"/github/session6.html\",\"title\":\"Bài 6. Thao tác bằng GitHub Desktop\",\"lang\":\"vi-VN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":1703866257000},\"readingTime\":{\"minutes\":1,\"words\":16},\"filePathRelative\":\"github/session6.md\"}")

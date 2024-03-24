@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-f70da1b4\",\"path\":\"/tags/thu%E1%BA%ADt-to%C3%A1n/\",\"title\":\"Thuật toán | Tags\",\"lang\":\"vi-VN\",\"frontmatter\":{\"title\":\"Thuật toán | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"Thuật toán\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")

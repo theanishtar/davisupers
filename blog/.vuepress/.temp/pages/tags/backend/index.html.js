@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-a3ca2210\",\"path\":\"/tags/backend/\",\"title\":\"BackEnd | Tags\",\"lang\":\"vi-VN\",\"frontmatter\":{\"title\":\"BackEnd | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"BackEnd\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")

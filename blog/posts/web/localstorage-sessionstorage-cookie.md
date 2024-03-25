@@ -5,16 +5,16 @@ subtitle: API Front-end
 author: Trần Hữu Đang
 date: 2024-03-23
 useHeaderImage: false
-headerImage: img/in-post/interview/api-banner.png
+headerImage: img/in-post/front-end/ssckls.png
 headerMask: rgba(70, 112, 80, 0)
-permalinkPattern: /post/interview/:slug/
+permalinkPattern: /post/front-end/:slug/
 tags:
   - interview
   - Web
   - FrontEnd
 ---
 
-![](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/interview/api/banner.png?raw=true)
+![](https://github.com/dangtranhuu/images/blob/main/angurvad/front-end/localstorage-sessionstorage-cookie/storage_hu7d5b380cd71d86288c030610f2b7077c_125084_1400x0_resize_box_3.png?raw=true)
 
 ## Khái niệm
 

@@ -1,4 +1,4 @@
-
+<img src="https://count-viewer.vercel.app//api/blog/view?url=https://davisupers.web.app/github/session7.html" alt="Image 1" style="float: left">
 
 # Bài 7 Viết commits chuyên nghiệp
 
@@ -142,3 +142,6 @@ Là phần TÙY CHỌN, mô tả một cách chi tiết hơn nếu cần
 Phần BODY cách `<type>: <description>` bởi một ký tự xuống dòng (blank line)
 
 Nên dùng để giair thích câu hỏi **What (để làm gì?)** hoặc **Why (tại sao cần? )**, chứ không phải **How (làm thế nào?)**
+
+<img src="https://count-viewer.vercel.app//api/blog/view?url=https://davisupers.web.app/github/session7.html" alt="Image 1" style="float: left">
+

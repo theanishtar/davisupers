@@ -1,4 +1,4 @@
-
+<img src="https://count-viewer.vercel.app//api/blog/view?url=https://davisupers.web.app/github/session2.html" alt="Image 1" style="float: left">
 
 # Bài 2. Đẩy code lên GitHub
 

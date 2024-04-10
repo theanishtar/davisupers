@@ -1,3 +1,6 @@
+<img src="https://count-viewer.vercel.app//api/blog/view?url=https://davisupers.web.app/github/session4.html" alt="Image 1" style="float: left">
+
+
 # Bài 4 Làm việc nhóm
 
 Làm việc nhóm với Git là một phần quan trọng trong quá trình phát triển phần mềm hoặc dự án công nghệ thông tin. 

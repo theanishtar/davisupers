@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Xử lý dữ liệu thời gian thực với Laravel và NodeJS
-subtitle: Cấu hình máy chủ Laravel với nền tảng NodeJS
+subtitle: Cách dùng Socket.io trong Laravel để tạo ứng dụng realtime
 author: Trần Hữu Đang
 date: 2024-04-11
 useHeaderImage: false
@@ -14,385 +14,276 @@ tags:
   - BackEnd
 ---
 
+<img src="https://count-viewer.vercel.app//api/blog/view?url=https://davisupers.web.app/post/back-end/laravel-socketio" alt="Image 1" style="float: left">
+
 ![](../../.vuepress/public/img/in-post/back-end/laravel-socket.png)
 
-## Khái niệm
 
-## Tổng quan
+Mình có từng làm qua một dự án để quản lí các thông báo đến User. Đối với các webapp sử dụng Java hoặc NodeJS thì điểu này khá dễ dàng. Trong khi đó PHP có vẻ chưa hỗ trợ tốt lắm.
 
-|     |   Cookie   |   Local Storage    | Session Storage |
-|-----|------------|--------------------|-----------------|
-|Capacity|4kb|10mb|5mb|
-|Browsers|  HTML4/HTML5|HTML5|HTML5|
-|Acccessible from|Any window | Anywindow|Same tab|
-|Expries |Manually set|Never|On tab close|
-|Storage Location|Browser and server|Browser only|Browser only|
-|Sent with request|Yes|No|No|
+Mới đây Laravel đã ra mắt version 9 có tích hợp Socket, tuy nhiên vừa ra mắt nên mình khá phân vân.
 
-```cpp
-+----------------+--------+---------+-----------+--------+
-|                | Chrome | Firefox | Safari    |  IE    |
-+----------------+--------+---------+-----------+--------+
-| LocalStorage   | 10MB   | 10MB    | 5MB       | 10MB   |
-+----------------+--------+---------+-----------+--------+
-| SessionStorage | 10MB   | 10MB    | Unlimited | 10MB   |
-+----------------+--------+---------+-----------+--------+
+Trong lúc tìm hiểu thì mình được biết các version cũ sẽ phải cài đặt NodeJS làm nền tảng server thứ hai và phải cài cả IORedis để chạy dữ liệu được nhanh hơn. 
+
+Really????? Bạn hiểu ý mình chứ, nó thật sự rất không khả thi nếu triển khai !!!!
+
+Mình đã cố gắng xây dựng một server có thể xử lý realtime qua các port thay vì phải cài cả một Cache cho việc thông báo. Hãy cùng mình tìm hiểu trong bài viết này nhé
+
+## 1. Socket.io trong Laravel là gì?
+
+Socket.io trong Laravel
+
+Socket.io là một thư viện JavaScript cho phép giao tiếp hai chiều giữa client và server trong thời gian thực thông qua các sự kiện và tin nhắn. Trong Laravel, chúng ta có thể sử dụng Socket.io để xây dựng các ứng dụng thời gian thực trên nền tảng PHP.
+
+
+Laravel WebSockets là một package cho phép tạo kết nối websocket giữa client và server để gửi và nhận các tin nhắn trong thời gian thực. Laravel WebSockets sử dụng Socket.io như là một cơ chế để xử lý các sự kiện và tin nhắn giữa client và server.
+
+Với sử dụng Socket.io trong Laravel, chúng ta có thể xây dựng các ứng dụng thời gian thực như chat, thông báo thời gian thực và các ứng dụng khác trên nền tảng PHP một cách dễ dàng và hiệu quả.
+
+## 2. Tại sao Socket.io được sử dụng trong Laravel?
+Socket.io là một thư viện JavaScript cho phép giao tiếp hai chiều giữa client và server trong thời gian thực thông qua các sự kiện và tin nhắn. Trong Laravel, chúng ta có thể sử dụng Socket.io để xây dựng các ứng dụng thời gian thực trên nền tảng PHP.
+
+Socket.io cho phép gửi và nhận các tin nhắn giữa client và server trong thời gian thực, cho phép các ứng dụng thời gian thực như chat, thông báo thời gian thực và các ứng dụng khác được xây dựng trên nền tảng PHP. Nó cũng cho phép client và server giao tiếp với nhau một cách nhanh chóng và hiệu quả, đảm bảo ứng dụng có khả năng mở rộng tốt hơn.
+
+Trong Laravel, chúng ta có thể sử dụng Laravel WebSockets, một package cho phép tạo kết nối websocket giữa client và server để gửi và nhận các tin nhắn trong thời gian thực. Laravel WebSockets sử dụng Socket.io như là một cơ chế để xử lý các sự kiện và tin nhắn giữa client và server. Vì vậy, sử dụng Socket.io trong Laravel giúp cho việc xây dựng các ứng dụng thời gian thực trên nền tảng PHP trở nên dễ dàng và hiệu quả hơn.
+
+## 3. Cách sử dụng Socket.io trong Laravel
+
+
+Ta sẽ tiến hành khởi tạo dự án thông báo sử dụng SocketIO và Laravel như sau:
+
+#### Tạo dự án Laravel
+
+```bash
+composer create-project --prefer-dist laravel/laravel tên_dự_án
 ```
 
-Sự khác nhau và cách sử dụng Local Storage, Session Storage và Cookie
+Khi tạo xong dự án bạn có thể chạy thử
 
-Bạn bị lẫn lộn giữa **session storage**,  **local storage** và **cookies**?
-Bài viết dưới đây sẽ giúp bạn hiểu rõ được sự khác nhau giữa 3 cách lưu trữ này.
-Các kiểu không gian lưu trữ khác nhau có sẵn cho các dữ liệu có thể trên máy chủ hoặc máy khách, cho phép chúng ta chọn lựa theo nhu cầu.
-
-## 1. Local storage
-
-### Giới thiệu:
-
-
-Khả năng lưu trữ vô thời hạn:
-Có nghĩa là chỉ bị xóa bằng JavaScript, hoặc xóa bộ nhớ trình duyệt, hoặc xóa bằng localStorage API.
-Lưu trữ được 5MB:
-Local Storage cho phép bạn lưu trữ thông tin tương đối lớn lên đến 5MB, lưu được lượng thông tin lớn nhất trong 3 loại.
-Không gửi thông tin lên server như Cookie nên bảo mật tốt hơn.
-
-### Trình duyệt hỗ trợ:
-
-
-
-
-Trình duyệt
-Phiên bản
-
-
-
-
-Chrome
-&gt;= 4.0
-
-
-Internet Explorer / Edge
-&gt;= 8.0
-
-
-Firefox
-&gt;= 3.5
-
-
-Safari
-&gt;= 4.0
-
-
-Chrome
-&gt;= 11.5
-
-
-
-Để kiểm tra xem trình duyệt có hỗ trợ localStorage hay không thì chúng ta dùng `typeof` như sau:
-
-```
-if (typeof(Storage) !== 'undefined') {
-    //Nếu có hỗ trợ
-    //Thực hiện thao tác với Storage
-    alert('Trình duyệt của bạn hỗ trợ Storage');
-} else {
-    //Nếu không hỗ trợ
-    alert('Trình duyệt của bạn không hỗ trợ Storage');
-}
-
+```bash
+php artisan serve
 ```
 
+Nếu mọi thứ OK ta sẽ chuyển sang bước hai, tạo môi trường NodeJS cho nó
 
-Xem localStorage bằng trình duyệt
+#### Tích hợp NodeJS
 
-Để xem localstorage bằng trình duyệt các bạn vào trang web cần xem (ở đây mình ví dụ với trang web [http://book.framgia.vn/](http://book.framgia.vn/)) và sau đó các bạn ấn F12 (hoặc Ctrl + shift + i) sau đó làm theo như hình sau:
+Đầu tiên bạn phải cấu hình một server NodeJS ngay đường dẫn gốc của dự án
 
-Chọn tab Application, di chuyển đến Storage để thấy các Storage của trình duyệt. Để xem các local Storage đang được lưu trữ, mở rộng phần Local Storage như hình. Ở đây ta có thể thấy có 2 biến Local Storage đang được lưu là *pusherTransportEncrypted* và *lang* với giá trị của 2 biến được hiển thị bên cạnh (cột Value).
-Như vậy, cột Key chính là danh sách các biến local Storage đang được lưu và cột Value là các giá trị tương ứng.
-Để xóa hết các giá trị local Storage này đi, bạn có thể chọn biểu tượng cấm (Clear All) hoặc chọn bên cạnh là biểu tượng dấu X (Delete Selected).
-
-Sử dụng
-
-
-Khởi tạo localStorage
-
-```
-localStorage.setItem('key', 'value');
-// hoặc
-localStorage.key = 'value';
-// hoặc
-localStorage['key'] = 'value';
-
+```bash
+npm install cookie-parser csurf express socket.io 
 ```
 
+:::info THƯ VIỆN
+- `cookie-parser`, `csurf` giúp server Laravel và NodeJS có thể giao tiếp thông qua API
+- `express` cung cấp chuẩn viết các API, cấu hình NodeJS tiện lợi hơn
+- `sockt.io` giúp emit dữ liệu về client theo thời gian thực
+:::
 
-Trong đó:
-key là tên biến, value là giá trị của biến muốn gán vào.
+Mình sẽ setup một số biến môi trường cần thiết cho NodeJS
 
-
-
-Để lấy giá trị localStorage và sử dụng, ta dùng `getItem`
-
-```
-localStorage.getItem('key');
-// hoặc
-localStorage.key;
+```.env
+SERVER_ORIGIN=http://localhost:8000
 ```
 
-**Ví dụ** cụ thể như sau:
+Khi đã cài đặt thành công bạn sẽ viết một file cấu hình server NodeJS như sau:
 
+**server.js**
+```js
+const express = require('express');
+const axios = require('axios');
+const app = express();
+const server = require('http').createServer(app);
 
-
-Để lấy số lượng localStorage đã có trong trình duyệt, sử dụng length như sau:
-
-```
-localStorage.length();
-```
-
-Ví dụ
-
-```
-if (typeof(Storage) !== "undefined") {
-    //Nếu hỗ trợ
-    var data = localStorage.length;
-    console.log(data);
-} else {
-    // Nếu không hỗ trợ
-    alert('Trình duyệt của bạn không hỗ trợ');
-}
+server.listen(3000, () => {
+  console.log('Server is running');
+});
 ```
 
+Bạn có thể chạy ứng dụng, nếu mọi thứ đều OK ta sẽ cấu hình SocketIO cho server NodeJS
 
-Để xóa 1 biến trong localStorage, sử dụng removeItem(tên_key)
+**server.js**
 
-```
-localStorage.removeItem(key);
-```
+```js
+const io = require('socket.io')(server, {
+  cors: { origin: proccess.env.SERVER_ORIGIN }
+});
 
-
-
-```
-localStorage.clear();
-```
-
-
-2. Session Storage
-
-Giới thiệu:
-
-
-Lưu trên Client: Cũng giống như localStorage thì sessionStorage cũng dùng để lưu trữ dữ liệu trên trình duyệt của khách truy cập (client).
-Mất dữ liệu khi đóng tab: Dữ liệu của sessionStorage sẽ mất khi bạn đóng trình duyệt.
-Dữ liệu không được gửi lên Server
-Thông tin lưu trữ nhiều hơn cookie (ít nhất 5MB)
-
-Trình duyệt hỗ trợ
-
-
-
-
-Trình duyệt
-Phiên bản
-
-
-
-
-Chrome
-&gt;= 5.0
-
-
-Internet Explorer / Edge
-&gt;= 8.0
-
-
-Firefox
-&gt;= 2
-
-
-Safari
-&gt;= 4.0
-
-
-Opera
-&gt;= 10.5
-
-
-
-Vì sessionStorage cũng nằm trong gói Storage nên các bạn cũng có thể sử dụng lại đoạn code kiểm tra trình duyệt có hỗ trợ Storage hay không ở phía trên.
-
-Xem Session Storage bằng trình duyệt
-
-Tương tự như localStorage, có thể chọn mở rộng mục Session Storage để xem các giá trị được lưu trữ.
-
-Sử dụng
-
-sessionStorage cũng có cú pháp và cách sử dụn các thuộc tính, phương thức như localStorage:
-
-```
-if ( typeof(Storage) !== 'undefined') {
-    // Khởi tạo sesionStorage
-    sessionStorage.setItem('name', 'Ted Mosby');
-    // get sessionStorage
-    sessionStorage.getItem('name');
-    // lấy ra số lượng session đã lưu trữ
-    sessionStorage.length;
-    // xóa 1 item localStorage
-    sessionStorage.removeItem('name');
-    // xóa tất cả item trong sessionStorage
-    sessionStorage.clear();
-} else {
-    alert('Trình duyệt của bạn không hỗ trợ!');
-}
-```
-
-Xem thêm
-
-3. Cookie
-
-Giới thiệu:
-
-
-Thông tin được gửi lên server: Cookie sẽ được truyền từ server tới browser và được lưu trữ trên máy tính của bạn khi bạn truy cập vào ứng dụng, mỗi khi người dùng tải ứng dụng, trình duyệt sẽ gửi cookie để thông báo cho ứng dụng về hoạt động trước đó của bạn. Vì vậy đừng bao giờ lưu trữ những thông tin quan trọng, yêu cầu tính bảo mật cao vào cookie vì nó hoàn toàn có thể bị sửa đổi và đánh cắp, thấp chí có thể lợi dụng điều này để tấn công website của bạn.
-Cookie chủ yếu là để đọc phía máy chủ (cũng có thể được đọc ở phía máy khách), localStorage và sessionStorage chỉ có thể được đọc ở phía máy khách.
-Có thời gian sống: Mỗi cookie thường có khoảng thời gian timeout nhất định do lập trình viên xác định trước.
-Lưu trữ: cho phép lưu trữ tối đa 4KB và vài chục cookie cho một domain.
-
-Xem cookie bằng trình duyệt
-
-Tương tự như localStorage, có thể chọn mở rộng mục Cookies để xem các giá trị cookie được lưu trữ
-
-
-Sử dụng
-
-Cookie có thể được tạo bằng nhiều cách, bài viết này sẽ trình bày về sử dụng cookie trong javascript.
-JavaScript có thể tạo, đọc, và xóa cookies với document.cookie.
-
-
-Tạo cookie: Javascript có thể tạo cookie như sau:
-
-```
-document.cookie = 'username=Ted Mosby';
-```
-
-
-Chúng ta cũng có thể thêm vào ngày hết hạn cho cookie
-
-```
-document.cookie = 'username=Ted Mosby; expires=Thu, 18 Dec 2018 8:00:00 UTC';
-```
-
-Hoặc đặt hẹn giờ sau bao lâu cookie sẽ hết hạn với max-age (tính bằng giây)
-
-```
-document.cookie = 'username=Ted Mosby; max-age=9000';
-```
-
-Đọc  cookie:
-
-```
-var x = document.cookie;
-```
-
-document.cookie sẽ trả lại tất cả cookie trong một chuỗi tring kiểu như: cookie1 = giá trị; cookie2 = giá trị; cookie3 = giá trị;
-
-Hoặc để lấy giá trị của 1 cookie, có thể viết một hàm như sau:
-
-```
-function getCookie(cname) {
-    var name = cname + '=';
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i &lt;ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
+io.on('connection', (socket) => {
+  socket.on('sendChatToServer', async (message) => {
+    try {
+      const responseData = await sendDataToLaravel(message);
+      console.log('Data sent to Laravel successfully:', responseData);
+      const noti = `User ${responseData.response.id} vừa tăng ${responseData.response.scope} điểm`;
+      socket.broadcast.emit('sendChatToClient', noti);
+    } catch (error) {
+      console.error('Failed to send data to Laravel:', error.message);
     }
-    return '';
+  });
+  socket.on('disconnect', () => {
+    console.log('Disconnect');
+  });
+});
+```
+
+:::details server.js
+```js
+const express = require('express');
+const axios = require('axios');
+const csrf = require('csurf');
+const cookieParser = require('cookie-parser');
+
+
+const app = express();
+const server = require('http').createServer(app);
+const io = require('socket.io')(server, {
+  cors: { origin: proccess.env.SERVER_ORIGIN }
+});
+
+
+app.use(cookieParser());
+app.use(express.urlencoded({ extended: true }));
+
+// Sử dụng csrf middleware
+const csrfProtection = csrf({ cookie: true });
+app.use(csrfProtection);
+
+// Middleware để gửi CSRF token cho client
+app.use((req, res, next) => {
+  res.cookie('XSRF-TOKEN', req.csrfToken());
+  next();
+});
+
+async function sendDataToLaravel(data, req) {
+  try {
+    console.log(data)
+    const url = `${proccess.env.SERVER_ORIGIN}/scope?name=${data.id}&scope=${data.scope}`;
+    const response = await axios.post(url, data, {
+      headers: {
+        'X-CSRF-TOKEN': req.cookies['XSRF-TOKEN']
+      }
+    });
+    console.log('Response from Laravel:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error sending data to Laravel:', error.message);
+    throw error;
+  }
 }
+
+io.on('connection', (socket) => {
+  console.log('connection');
+
+  socket.on('sendChatToServer', async (message) => {
+    try {
+      const responseData = await sendDataToLaravel(message);
+      console.log('Data sent to Laravel successfully:', responseData);
+      const noti = `User ${responseData.response.id} vừa tăng ${responseData.response.scope} điểm`;
+      socket.broadcast.emit('sendChatToClient', noti);
+    } catch (error) {
+      console.error('Failed to send data to Laravel:', error.message);
+    }
+  });
+
+  socket.on('disconnect', () => {
+    console.log('Disconnect');
+  });
+});
+
+server.listen(3000, () => {
+  console.log('Server is running');
+});
 ```
-
-Xem thêm
-
-Tham số truyền vào là cname - tên cookie muốn lấy giá trị.
+:::
 
 
+Sau khi hoàn tất việc cấu hình NodeJS ta sẽ xây dựng ứng dụng Laravel
 
-Tạo một biến name và thêm vào "=" để tìm kiếm trong chuỗi document.cookie
+#### Viết Controller xử lý
 
+Các bạn cứ viết code theo yêu cầu của mình và gọi nó bằng NodeJS nhé
 
+**/app/Http/Controllers/EmitScope.php**
 
-Chia document.cookie dựa trên dấu ; thành một mảng nhiều phần tử và gán mảng đấy cho biến ca
+```php
+public function sendDataToNode(Request $request)
+{
+  try{
+    // Lấy giá trị của tham số 'id' từ yêu cầu POST, nếu không có thì sử dụng giá trị mặc định 'default_value'
+    $id = $request->input('id', 'default_value');
+    $scope = $request->input('scope', 'default_value');
 
-
-
-Vòng lặp (i=0; i&lt;ca.length; i++) để đọc mỗi giá trị c = ca[i]
-
-
-
-Nếu cookie được tìm thấy (c.indexOf(name)==0), trả về giá trị của cookie (c.substring(name.length,c.length). Nếu cookie không được tìm thấy, trả về ''
-
-
-Ví dụ muốn lấy giá trị của cookie tên là language thì ta có thể gọi getcookie('language') và kêt quả trả về là giá trị của cookie có tên đó.
-
-```
-var lang = getCookie('language');
-console.log(lang);
-```
-
-Kết quả:
-
-
-
-
-Thay đổi giá trị cookie: Trong javascript, bạn có thể thay đổi một cookie giống như cách mà bạn tạo ra cookie, tức là ghi đè giá trị mới lên cookie đã có:
-
-```
-document.cookie = "username=Barney Stinson; expires=Wed, 26 Dec 2018 8:00:00 UTC";
-```
-
-Kiểm tra cookie: Để kiểm tra coookie, có thể xây dựng hàm như sau:
-
-```
-function checkCookie() {
-    var username = getCookie('username');
-    if (username != '') {
-        alert('Welcome again ' + username);
+    if ($user) {
+      // Xử lý
+      $data = [
+        'id' => $user->id,
+        'scope' => $user->scope
+      ];
     } else {
-        username = prompt('Please enter your name: ',  '');
-        if (username != '' &amp;&amp; username != null) {
-            setCookie('username', username, 365);
-        }
+      // Xử lý
+      $data = [
+        'id' => $id,
+        'scope' => $scope
+      ];
     }
+    return response()->json([
+        'message' => 'successfully',
+        'response' => $data
+    ]);
+  } catch (Exception $e) {
+    return response()->json(['error' => $e], 500);
+  }
 }
 ```
 
-Nếu cookie được thiết lập, nó sẽ hiển thị một lời chào
+#### Viết Router gọi API
 
+**/routes/web.php**
 
+```php
+<?php
 
-Nếu cookie không được thiết lập, nó sẽ hiển thị một prompt box, hỏi tên của người dùng, lưu trữ tên của người dùng ở cookie trong 365 ngày, bằng việc gọi function setCookie đã được viết ở trên
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EmitScope;
 
+Route::get('/', function () {
+  return view('welcome');
+});
 
+Route::get('/scope', function () {
+  return view('scope');
+});
 
-Xóa cookie:
-Để xóa một cookie chỉ cần xét lại giá trị ngày hết hạn expires về một thời điểm đã qua
-
+Route::post('/scope', [EmitScope::class, 'sendDataToNode']);
 ```
-document.cookie = 'username=; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+
+
+#### Gọi API từ NodeJS
+
+Gọi API từ NodeJS đến Laravel và trả về Client
+
+**server.js**
+
+```js
+const url = `http://127.0.0.1:8000/scope?name=${data.id}&scope=${data.scope}`;
+    const response = await axios.post(url, data, {
+      console.log('Data sent to Laravel successfully:', responseData);
+      const noti = `User ${responseData.response.id} vừa tăng ${responseData.response.scope} điểm`;
+      socket.broadcast.emit('sendChatToClient', noti);
+    });
 ```
 
-Tham khảo tại [https://www.w3schools.com/js/js_cookies.asp](https://www.w3schools.com/js/js_cookies.asp)
 
-4. Thông tin thêm
+## Tổng kết
+
+Vậy là mình đã xây dựng xong một server Laravel giúp xử lý thờ gian thực bằng NodeJS + SocketIO... Nó sẽ khá phức tạp vì PHP không hỗ trợ tốt Socket
+
+:::tip Mã nguồn
+Bạn cũng có thể xem mã nguồn gốc dự án cuả mình tại [đây](https://github.com/theanishtar/realtime-scope)
+:::
 
 
-Vì localStorage và sessionStorage được lưu trữ trên trình duyệt của người dùng, nên các bạn cần phải xem xét nội dung lưu trữ có liên quan đến vấn đề bảo mật hay không.
-Và cũng chính vì localStorage và sessionStorage được lưu trữ trên trình duyệt nên việc sử dụng nó sẽ không ảnh hưởng đến hiệu xuất của trang web nhưng nó sẽ làm nặng trình duyệt của người dùng (không đáng kể).
-Về phạm vi:
-**sessionStorage**: giới hạn trong một cửa sổ hoăc thẻ của trình duyệt. Một trang web được mở trong hai thẻ của cùng một trình duyệt cũng không thể truy xuất dữ liệu lẫn nhau. Như vậy, khi bạn đóng trang web thì dữ liệu lưu trong sessionStorage hiện tại cũng bị xóa. Còn **localStorage**: có thể truy xuất lẫn nhau giữa các cửa sổ trình duyệt. Dữ liệu sẽ được lưu trữ không giới hạn thời gian.
+Mong bài viết hữu ích đến bạn ^^
 
- 
+
+<img src="https://count-viewer.vercel.app//api/blog/view?url=https://davisupers.web.app/post/back-end/laravel-socketio" alt="Image 1" style="float: left">

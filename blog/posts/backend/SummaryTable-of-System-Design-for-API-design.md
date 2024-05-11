@@ -10,8 +10,8 @@ headerMask: rgba(70, 112, 80, 0)
 permalinkPattern: /post/backend/:slug/
 tags:
   - Backend
-  - Authentication
-  - Authoriztion
+  - API
+  - Design System
 ---
 
 Kiến trúc API đề cập đến tập hợp các quy tắc, giao thức và công cụ quy định cách các thành phần phần mềm tương tác. Kiến trúc của API không chỉ tạo điều kiện thuận lợi cho việc giao tiếp; đó còn là việc đảm bảo rằng hoạt động liên lạc này hiệu quả, an toàn và có thể mở rộng.

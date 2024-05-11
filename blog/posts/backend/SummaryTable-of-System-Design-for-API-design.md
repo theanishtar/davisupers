@@ -3,9 +3,9 @@ layout: Post
 title: Bảng tóm tắt về thiết kế hệ thống/Kiểu API - REST, GraphQL, WebSocket, Webhook, RPC/gRPC, SOAP
 subtitle: Các kiểu kiến trúc API khác nhau
 author: Trần Hữu Đang
-date: 2023-10-20
+date: 2024-05-11
 useHeaderImage: false
-headerImage: img/in-post/back-end/jwtnodejs.png
+headerImage: img/in-post/back-end/api/SummaryTable-of-System-Design-for-API-design.png
 headerMask: rgba(70, 112, 80, 0)
 permalinkPattern: /post/backend/:slug/
 tags:
@@ -19,8 +19,46 @@ Kiến trúc API đề cập đến tập hợp các quy tắc, giao thức và 
 
 Kiến trúc API được thiết kế tốt có thể nâng cao đáng kể hiệu suất của hệ thống, trong khi kiến trúc được thiết kế kém có thể dẫn đến tắc nghẽn, lỗ hổng bảo mật và những cơn ác mộng khi bảo trì.
 
-<!-- 
-![](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/1.png?raw=true) -->
+
+![](../../.vuepress/public/img/in-post/back-end/api/SummaryTable-of-System-Design-for-API-design.png) 
+
+
+:::details <b>Nội dung chính</b>
+
+<br>
+
+<div class="scroll" style="width: 100%; overflow-x: auto; white-space: nowrap;">
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/1.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/2.png?raw=true" alt="Image 2" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/3.png?raw=true" alt="Image 3" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/4.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/5.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/6.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/7.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/8.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <div style="display: inline-block; margin-right: 15px;">
+    <img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/api/thump/9.png?raw=true" alt="Image 1" style="width:500px; height:50%;object-fit: cover; margin:0px;">
+  </div>
+  <!-- Add more slides as needed -->
+</div>
+::: 
+
 
 # Các kiểu kiến trúc API khác nhau
 

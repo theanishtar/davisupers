@@ -52,7 +52,8 @@ import {
   SiAdobelightroom,
   SiAdobeaudition,
   CoAdobe,
-  ViFileTypeDocker2
+  ViFileTypeDocker2,
+  SiLeetcode
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -108,7 +109,8 @@ addIcons(
   SiAdobelightroom,
   SiAdobeaudition,
   CoAdobe,
-  ViFileTypeDocker2
+  ViFileTypeDocker2,
+  SiLeetcode
 );
 
 export default defineClientConfig({});

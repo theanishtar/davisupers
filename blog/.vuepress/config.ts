@@ -107,6 +107,11 @@ export default defineUserConfig({
         facebook: "theanishtar",
         twitter: "theanishtar",
         email: "dangthpc@gmail.com",
+        leetcode: {
+          icon: "si-leetcode",
+          link: "theanishtar.github.io/Leetcode-challenges"
+        },
+        // leetcode: "anb"
         // rss: "/rss.xml"
       }
     },

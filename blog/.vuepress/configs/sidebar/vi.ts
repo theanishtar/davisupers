@@ -135,6 +135,11 @@ export const vi: SidebarConfig = {
   "/docker/": [
     // "/java-collections/readme.md",
     "/docker/section1.md",
+  ],
+  "/firebase/": [
+    // "/java-collections/readme.md",
+    "/firebase/section1.md",
+    "/firebase/section2.md",
   ]
 };
 

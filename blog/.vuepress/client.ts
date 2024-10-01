@@ -53,8 +53,7 @@ import {
   SiAdobeaudition,
   CoAdobe,
   ViFileTypeDocker2,
-  SiLeetcode,
-  ViFileTypeFirebase
+  SiLeetcode
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -111,8 +110,7 @@ addIcons(
   SiAdobeaudition,
   CoAdobe,
   ViFileTypeDocker2,
-  SiLeetcode,
-  ViFileTypeFirebase
+  SiLeetcode
 );
 
 export default defineClientConfig({});

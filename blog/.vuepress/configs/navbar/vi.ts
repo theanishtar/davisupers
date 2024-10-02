@@ -85,6 +85,10 @@ export const vi: NavbarConfig = [
             text: "Microsoft SQL Server",
             link: "/sql-server/",
             icon: "vi-file-type-sql"
+          }, {
+            text: "Firebase",
+            link: "/firebase/section1.md",
+            icon: "vi-file-type-firebase"
           },
           // {
           // 	text: "JavaScript ES6",
